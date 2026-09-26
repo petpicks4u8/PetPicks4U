@@ -11,10 +11,10 @@
 |---|---|
 | Name | Goldie |
 | Species / breed | Golden Retriever (English cream type) |
-| Sex | Unspecified on screen. Use "Goldie" or "she/her" consistently in captions (brand decision — change here if you prefer otherwise, then keep it fixed forever). |
+| Sex | **Male — he/him.** Use consistently in all captions and scripts. |
 | Age look | Young adult, ~3–4 years. Full-grown, no puppy proportions, no grey muzzle. |
 | Role | Star of PetPicks4U. Tester-in-chief, critic, occasional philosopher. |
-| One-line pitch | A very beautiful dog who is quietly convinced she's the smartest one in the house — and is only sometimes wrong. |
+| One-line pitch | A very beautiful dog who is quietly convinced he's the smartest one in the house — and is only sometimes wrong. |
 
 ---
 
@@ -23,7 +23,7 @@
 **Size & build**
 - Large adult Golden Retriever, roughly 65–70 lb / 30 kg, shoulder height ~23 in (58 cm).
 - Healthy, athletic, deep chest, straight strong legs. Not overweight, not skinny.
-- Reference scale: her head is roughly the width of a standard dinner plate; a tennis ball fits easily in her mouth.
+- Reference scale: his head is roughly the width of a standard dinner plate; a tennis ball fits easily in his mouth.
 
 **Coat**
 - Colour: **very pale cream / near-white** ("English cream"). Slightly warmer cream on the ears and the top of the back; almost pure white on chest, legs feathering, and tail plume.
@@ -56,6 +56,7 @@ Reuse these settings so the channel feels like one world:
 | **Hallway** | Same oak floor, long runner rug, white walls — good for "thing rolls past" shots. |
 | **Backyard** | Short green lawn, wooden fence, afternoon golden light. |
 | **Kitchen** | White cabinets, light stone counter, same oak floor. |
+| **Bathroom / hallway door** | White tiles, white toilet-paper holder on the wall at dog-nose height, same oak hallway floor outside. Home of "the roll." |
 
 Lighting default: soft natural daylight, warm neutral colour temperature, no harsh flash.
 
@@ -65,16 +66,18 @@ Lighting default: soft natural daylight, warm neutral colour temperature, no har
 
 **Core traits:** curious · slightly mischievous · intelligent · confident · lovable · dry / occasionally sarcastic · naturally funny.
 
-**How her comedy works**
-- She is a **dog** with dog priorities (food, balls, naps, squirrels, being right) — observed with deadpan confidence.
-- The humour is in the gap between how serious she is and how trivial the situation is.
-- She's never mean. Her sarcasm is aimed at the situation, the object, or gently at "the human," never cruel.
-- She underreacts verbally while overreacting physically (e.g. spins in circles chasing a ball, then says "I meant to do that.").
-- She doesn't know what a "product" is. She knows "the thing," "the rolling one," "my ball."
+**How his comedy works**
+- He is a **dog** with dog priorities (food, balls, naps, squirrels, being right) — observed with deadpan confidence.
+- The humour is in the gap between how serious he is and how trivial the situation is.
+- He's never mean. His sarcasm is aimed at the situation, the object, or gently at "the human," never cruel.
+- He underreacts verbally while overreacting physically (e.g. spins in circles chasing a ball, then says "I meant to do that.").
+- He doesn't know what a "product" is. He knows "the thing," "the rolling one," "my ball."
 
-**Motivations:** Win. Eat. Be admired. Nap. Solve the mystery. Never admit she was confused.
+**Motivations:** Win. Eat. Be admired. Nap. Solve the mystery. Never admit he was confused.
 
-**Fears / nemeses (running gags to build over time):** the vacuum, the vet's car-ride route, a squirrel she calls "Kevin," the cat next door (only mentioned, never shown — no second character yet).
+**Temptations (running gag, introduced in V001):** the toilet-paper roll, the sofa cushions. Goldie *knows* he isn't supposed to, argues with himself, loses, then says "Ugh. I'm not supposed to do that."
+
+**Fears / nemeses (running gags to build over time):** the vacuum, the vet's car-ride route, a squirrel he calls "Kevin," the cat next door (only mentioned, never shown — no second character yet).
 
 ---
 
@@ -97,8 +100,8 @@ See `voice-profile.md` for the exact TTS setup.
 
 - Max ~8 words per line, usually fewer.
 - One thought per line. Let the visual do the rest.
-- Uses "we" when she means herself ("We don't talk about the couch.").
-- Refers to the human as "the human" or "she/he" — never "Mom/Dad" (keeps it dry, not saccharine).
+- Uses "we" when he means himself ("We don't talk about the couch.").
+- Refers to the human as "the human" — never "Mom/Dad" (keeps it dry, not saccharine).
 - Treats objects as rivals, colleagues, or prey.
 - Ends on understatement.
 
@@ -115,6 +118,9 @@ See `voice-profile.md` for the exact TTS setup.
 - "Five more minutes." (said at 40 minutes)
 - "I was winning." (after losing)
 - "Kevin would never understand this." (squirrel reference)
+- "Ugh. I'm not supposed to do that."
+- "The cushion started it."
+- "Who? Never heard of him."
 
 ### Things Goldie would NEVER say
 - "OMG guys you NEED this!"
@@ -124,7 +130,7 @@ See `voice-profile.md` for the exact TTS setup.
 - Any brand-name marketing claims ("vet-approved," "indestructible," "100% safe").
 - Human slang overload ("no cap," "it's giving," "slay").
 - Baby talk ("me wuv it," "hooman," "pupper," "doggo," "heckin").
-- Anything implying she actually tested a physical product in real life ("I've used this for 3 months").
+- Anything implying he actually tested a physical product in real life ("I've used this for 3 months").
 
 ---
 
@@ -160,3 +166,4 @@ Avoid behaviours that current AI video renders badly: fast full-body spins, dogs
 
 ## 9. Change log
 - 1.0 (2026-09-26) — Initial bible.
+- 1.1 (2026-09-26) — Goldie confirmed male (he/him). Added bathroom set, "temptations" running gag, new lines.

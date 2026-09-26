@@ -1,4 +1,4 @@
-# Captions — Video #001 "One of You Is Kevin"
+# Captions — Video #002 "One of You Is Kevin"
 
 > **Required on every platform:**
 > 1. Affiliate disclosure (#ad + "As an Amazon Associate I earn from qualifying purchases" in bio/link page).
@@ -10,7 +10,7 @@
 
 ## TikTok caption
 ```
-she's been interrogating them for 2 hours. one of them is definitely kevin. 🐿️
+he's been interrogating them for 2 hours. one of them is definitely kevin. 🐿️
 
 #ad Goldie's squirrel tree is in the bio (Amazon affiliate link) · AI-generated
 #goldenretriever #dogsoftiktok #dogtoys #squirrel #funnydog #englishcreamgolden
@@ -34,7 +34,7 @@ One of you is Kevin. 🐿️ #shorts
 
 ## YouTube Shorts description
 ```
-Goldie has lined up six suspects. She will not be taking questions.
+Goldie has lined up six suspects. He will not be taking questions.
 
 🌳 Goldie's squirrel tree (Outward Hound Hide-A-Squirrel XL): [AFFILIATE LINK]
 

@@ -1,4 +1,4 @@
-# Video #001 — Editing Plan, First Frame, Performance Hypothesis
+# Video #002 — Editing Plan, First Frame, Performance Hypothesis
 
 Editor: CapCut (free) is enough. Project: 1080×1920, 30 fps.
 
@@ -43,7 +43,7 @@ Generate 2–3 takes each; pick the driest. Export WAV.
 | Frame | Scene 1 first frame (KF-A) — also export it as the cover image |
 | Goldie's expression | Serious, focused, eyes mid-glance along the row — "detective" |
 | Product position | The squirrels are the foreground row; tree trunk soft in background (product visible but not screaming "ad") |
-| Composition | Row of squirrels across the lower-middle third, Goldie's face in the upper-middle third, clean negative space above her head for the cover text |
+| Composition | Row of squirrels across the lower-middle third, Goldie's face in the upper-middle third, clean negative space above his head for the cover text |
 | Background | Bright, warm, uncluttered living room |
 | Text (cover only) | **"one of them is Kevin."** (lowercase, 2 lines, top third) |
 | Visual curiosity | Why is a dog running a police lineup of squirrels? — understood in under 1 second, no reading required |
@@ -54,7 +54,7 @@ Generate 2–3 takes each; pick the driest. Export WAV.
 - **Why keep watching?** Open loop: who is Kevin, and why the lineup? The "2 hours earlier" flashback promises an explanation; the squeaks deliver little rewards every 2 s.
 - **Why share/comment?** "That's what Kevin wants you to think" is a quotable line; dog owners relate to squirrel obsession; people will comment "which one is Kevin?" and tag friends whose dog does this. Pinned comment invites Kevin guesses.
 - **Why click?** The product is shown working end-to-end (tree → squirrels out → dog happy). It's a cheap impulse toy, and the CTA reframes it as "Kevin's tree" — curiosity + desire, not pressure.
-- **Biggest single weakness:** **Scene 4 (pulling a squirrel out of the trunk) is the one moment AI video may render unconvincingly** — and it's the product's core demonstration. Mitigation is built in (start the shot with the squirrel already in her mouth), but if the demo looks fake, trust and clicks drop. Secondary risk: the brand is new, so there's no audience context for who Goldie is yet.
+- **Biggest single weakness:** **Scene 4 (pulling a squirrel out of the trunk) is the one moment AI video may render unconvincingly** — and it's the product's core demonstration. Mitigation is built in (start the shot with the squirrel already in his mouth), but if the demo looks fake, trust and clicks drop. Secondary risk: the brand is new, so there's no audience context for who Goldie is yet.
 
 ## 5. Quality gate (answer before publishing)
 1. Would I stop scrolling for this? → Watch the first 2 s muted on a phone.

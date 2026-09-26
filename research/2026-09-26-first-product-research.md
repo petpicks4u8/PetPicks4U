@@ -1,5 +1,7 @@
 # Product Research #1 — First Goldie Product
 
+> **UPDATE 2026-09-26 (owner decision):** Video #001 will feature **P003 AWOOF Snuffle Mat** instead. Reason: owner wants to lead with a *problem-solving* product (boredom → toilet paper / furniture) rather than toys only. The snuffle mat had the strongest demand data in this research and the easiest AI physics. Hide-A-Squirrel XL moves to video #002 (script already written). The analysis below is kept unchanged for the record.
+
 **Date:** 2026-09-26
 **Question:** Which Amazon dog product should Goldie's first video feature?
 **Categories checked:** automatic moving balls (QGI included), puzzle toys, snuffle mats, lick mats, treat-dispensing toys, automatic ball launchers, plush hide-and-seek puzzles, herding balls.

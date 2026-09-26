@@ -1,4 +1,7 @@
 video_id,title,product_id,concept_type,hook_type,has_dialogue,length_s,platform,post_date,post_time_local,views,retention_1s_pct,retention_3s_pct,avg_watch_s,completion_pct,rewatches,likes,comments,shares,saves,profile_visits,link_clicks,amazon_clicks,ordered_items,conversion_pct,revenue_usd,diagnosis,notes
-V001,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,tiktok,,,,,,,,,,,,,,,,,,,,
-V001,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,instagram,,,,,,,,,,,,,,,,,,,,
-V001,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,youtube,,,,,,,,,,,,,,,,,,,,
+V001,I'm Not Supposed to Do That,P003,temptation-comedy,relatable-uh-oh+self-talk,yes,28,tiktok,,,,,,,,,,,,,,,,,,,,
+V001,I'm Not Supposed to Do That,P003,temptation-comedy,relatable-uh-oh+self-talk,yes,28,instagram,,,,,,,,,,,,,,,,,,,,
+V001,I'm Not Supposed to Do That,P003,temptation-comedy,relatable-uh-oh+self-talk,yes,28,youtube,,,,,,,,,,,,,,,,,,,,
+V002,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,tiktok,,,,,,,,,,,,,,,,,,,,
+V002,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,instagram,,,,,,,,,,,,,,,,,,,,
+V002,One of You Is Kevin,P001,E-curiosity,visual-mystery+line,yes,26,youtube,,,,,,,,,,,,,,,,,,,,

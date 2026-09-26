@@ -1,13 +1,108 @@
 {
-  "source": "Higgsfield list_voices, retrieved 2026-09-26. Preset voices usable with text2speech_v2 (variant elevenlabs) or seed_audio.",
-  "chosen_voice_id": null,
-  "candidates": [
-    {"name": "Maeve", "gender": "female", "voice_type": "preset", "voice_id": "64cf4f1a-61c8-5938-9aea-83d12b2e1d13", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/64cf4f1a-61c8-5938-9aea-83d12b2e1d13/preview-beb7ec12bc6be2ca.mp3"},
-    {"name": "Vera", "gender": "female", "voice_type": "preset", "voice_id": "0c51919f-0756-5f8d-8169-026a339d8fd7", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/0c51919f-0756-5f8d-8169-026a339d8fd7/preview-b33f1e08e41153ee.mp3"},
-    {"name": "Helena", "gender": "female", "voice_type": "preset", "voice_id": "3c2b83c0-2e0a-5ae8-998a-a5fe71b7eccd", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c2b83c0-2e0a-5ae8-998a-a5fe71b7eccd/preview-23723fb8dfc918c6.mp3"},
-    {"name": "Nadine", "gender": "female", "voice_type": "preset", "voice_id": "165d9309-bb17-56ff-964a-5d6a38dab92f", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/165d9309-bb17-56ff-964a-5d6a38dab92f/preview-964c0d3a724d5c0f.mp3"},
-    {"name": "Desmond", "gender": "male", "voice_type": "preset", "voice_id": "563f728c-e249-5a85-97ab-8461e8c09da6", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/563f728c-e249-5a85-97ab-8461e8c09da6/preview-df657d3e601522e1.mp3"},
-    {"name": "Arthur", "gender": "male", "voice_type": "preset", "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"},
-    {"name": "Holden", "gender": "male", "voice_type": "preset", "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c9d6053-6334-592c-8997-4e325286af3f/preview-bddba899f043d6a8.mp3"}
-  ]
+  "source": "Higgsfield list_voices, retrieved 2026-09-26. Preset voices for text2speech_v2 (variant elevenlabs) or seed_audio. Goldie is male.",
+  "goldie_chosen_voice_id": null,
+  "human_chosen_voice_id": null,
+  "goldie_candidates": [
+    {
+      "name": "Desmond",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "563f728c-e249-5a85-97ab-8461e8c09da6",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/563f728c-e249-5a85-97ab-8461e8c09da6/preview-df657d3e601522e1.mp3"
+    },
+    {
+      "name": "Arthur",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    },
+    {
+      "name": "Harrison",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "573e5163-59b3-4926-aab1-951ef2985f81",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/725aa234-8c64-4a87-8f5e-220aca1375f7.mp3"
+    },
+    {
+      "name": "Sterling",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "dc382508-c8bd-443c-8cb2-46e57b8d2e6f",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/ed37f856-236b-413e-9f4d-9c746648ea72.mp3"
+    },
+    {
+      "name": "Gideon",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/07a76edf-11cb-45dc-b00d-d6deb5fe6901.mp3"
+    },
+    {
+      "name": "Alistair",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "d9d5c263-f84e-4752-97b5-3750fcc6fd2f",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/1da70cb9-bc0e-4ad4-b812-6e715cb94d6c.mp3"
+    },
+    {
+      "name": "Holden",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c9d6053-6334-592c-8997-4e325286af3f/preview-bddba899f043d6a8.mp3"
+    },
+    {
+      "name": "Brooks",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "c2acff45-84b2-4974-892d-89fa2d4e5598",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/205ba406-f52c-4b61-b3f8-fd04cf683af5.mp3"
+    },
+    {
+      "name": "Julian",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "95429266-c0ac-4137-a209-63b8812b0f23",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/6d53a63c-d1a3-44e2-a6a7-62777b97aa34.mp3"
+    },
+    {
+      "name": "Orion",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "ed69c516-92d2-4b30-a967-617737a342e5",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/4ea32dda-a9b3-4cdc-8021-b827a166ad44.mp3"
+    },
+    {
+      "name": "Marcus",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "6f98d3dd-324f-4845-8c28-c1d1647a06cd",
+      "preview_url": "https://cdn.higgsfield.ai/audio_voice/cd7a989c-89ba-43c8-bc02-44a8c429825f.wav"
+    },
+    {
+      "name": "Bram",
+      "gender": "male",
+      "voice_type": "preset",
+      "voice_id": "549ff70a-3ee7-4f04-a4d9-89a24fab7709",
+      "preview_url": "https://cdn.higgsfield.ai/audio_voice/92b784d6-f194-414b-8d78-fb7108ba4d5a.wav"
+    }
+  ],
+  "human_voice_candidates": [
+    {
+      "name": "Maeve",
+      "gender": "female",
+      "voice_type": "preset",
+      "voice_id": "64cf4f1a-61c8-5938-9aea-83d12b2e1d13",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/64cf4f1a-61c8-5938-9aea-83d12b2e1d13/preview-beb7ec12bc6be2ca.mp3"
+    },
+    {
+      "name": "Vera",
+      "gender": "female",
+      "voice_type": "preset",
+      "voice_id": "0c51919f-0756-5f8d-8169-026a339d8fd7",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/0c51919f-0756-5f8d-8169-026a339d8fd7/preview-b33f1e08e41153ee.mp3"
+    }
+  ],
+  "fun_note": "There is a male preset literally named 'Kevin' (f1373f24-3b96-433f-9a68-e595810ef608) \u2014 reserve it if Kevin the squirrel ever speaks."
 }

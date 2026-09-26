@@ -1,12 +1,12 @@
 # PetPicks4U
 
 Entertaining AI-generated pet videos first, and product discovery through Amazon affiliate links second.
-Star: **Goldie**, an English cream Golden Retriever. Current nemesis: **Kevin**, a squirrel.
+Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet paper and couch cushions. Nemesis: **Kevin**, a squirrel.
 
 ## Status (2026-09-26)
-**Video #001 "One of You Is Kevin"** has been researched, scripted, prompted and captioned, and is **ready to generate**.
-- Product: Outward Hound Hide-A-Squirrel XL (ASIN B005VS9WO6)
-- Backups: QGI Interactive Dog Ball (B0DK42TDSK) and AWOOF Snuffle Mat (B07N1JYYCW)
+- **Video #001 "I'm Not Supposed to Do That"** (AWOOF Snuffle Mat): scripted, prompted and captioned, and **ready to generate**.
+- **Video #002 "One of You Is Kevin"** (Outward Hound Hide-A-Squirrel XL): script ready, queued next.
+- Goldie is **male (he/him)**. His voice is still to be chosen: see `characters/goldie/voice-profile.md`.
 
 ## Where things live
 | Folder | What's in it |

@@ -4,7 +4,8 @@ Log every hook we publish with its 3-second retention. Promote a hook to "proven
 
 | Video | Hook (first 2 s) | Type | 3s retention | Status |
 |---|---|---|---|---|
-| V001 | Squirrel lineup + "One of you is Kevin." | Visual mystery + line | — | Testing |
+| V001 | Nose 1 cm from the toilet paper + "Don't do it, Goldie." | Relatable uh-oh + self-talk | — | Testing |
+| V002 | Squirrel lineup + "One of you is Kevin." | Visual mystery + line | — | Scripted |
 
 ## Hook types to test
 - Visual mystery (unexplained arrangement/situation)

@@ -1,5 +1,5 @@
 video_id,working_title,product_id,concept,status,target_post_date,platforms,notes
-V001,One of You Is Kevin,P001,E curiosity/detective,READY_TO_GENERATE,,tiktok;instagram;youtube,First Goldie video; introduces Kevin
-V002,Eviction Notice (They Came Back),P001,D comedy,CONCEPT,,tiktok;instagram;youtube,Sequel; reuses Goldie + SquirrelTree elements
-V003,The Stakeout (no dialogue),P001,A discovery,CONCEPT,,tiktok;instagram;youtube,Tests no-VO format
+V001,I'm Not Supposed to Do That,P003,Temptation comedy (toilet paper / couch -> snuffle mat),READY_TO_GENERATE,,tiktok;instagram;youtube,First Goldie video; introduces "temptations" gag
+V002,One of You Is Kevin,P001,E curiosity/detective,SCRIPT_READY,,tiktok;instagram;youtube,Introduces Kevin the squirrel
+V003,Eviction Notice (They Came Back),P001,D comedy,CONCEPT,,tiktok;instagram;youtube,Sequel to V002
 V004,It Moved First (QGI ball),P002,Curiosity,CANDIDATE,,tiktok;instagram;youtube,Keep ball mostly twitching/stationary for AI reliability
