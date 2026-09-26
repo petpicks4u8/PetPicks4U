@@ -1,0 +1,13 @@
+{
+  "source": "Higgsfield list_voices, retrieved 2026-09-26. Preset voices usable with text2speech_v2 (variant elevenlabs) or seed_audio.",
+  "chosen_voice_id": null,
+  "candidates": [
+    {"name": "Maeve", "gender": "female", "voice_type": "preset", "voice_id": "64cf4f1a-61c8-5938-9aea-83d12b2e1d13", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/64cf4f1a-61c8-5938-9aea-83d12b2e1d13/preview-beb7ec12bc6be2ca.mp3"},
+    {"name": "Vera", "gender": "female", "voice_type": "preset", "voice_id": "0c51919f-0756-5f8d-8169-026a339d8fd7", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/0c51919f-0756-5f8d-8169-026a339d8fd7/preview-b33f1e08e41153ee.mp3"},
+    {"name": "Helena", "gender": "female", "voice_type": "preset", "voice_id": "3c2b83c0-2e0a-5ae8-998a-a5fe71b7eccd", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c2b83c0-2e0a-5ae8-998a-a5fe71b7eccd/preview-23723fb8dfc918c6.mp3"},
+    {"name": "Nadine", "gender": "female", "voice_type": "preset", "voice_id": "165d9309-bb17-56ff-964a-5d6a38dab92f", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/165d9309-bb17-56ff-964a-5d6a38dab92f/preview-964c0d3a724d5c0f.mp3"},
+    {"name": "Desmond", "gender": "male", "voice_type": "preset", "voice_id": "563f728c-e249-5a85-97ab-8461e8c09da6", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/563f728c-e249-5a85-97ab-8461e8c09da6/preview-df657d3e601522e1.mp3"},
+    {"name": "Arthur", "gender": "male", "voice_type": "preset", "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"},
+    {"name": "Holden", "gender": "male", "voice_type": "preset", "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f", "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c9d6053-6334-592c-8997-4e325286af3f/preview-bddba899f043d6a8.mp3"}
+  ]
+}
