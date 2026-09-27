@@ -5,7 +5,7 @@
 | Workspace | 2e9cc405-a493-4b7a-ba71-4c351f7ee3ae |
 | Project "PetPicks4U — V001 Snuffle Mat" | c9d65fe1-ea2b-4aec-a5dd-a9e89e91c273 (default folder same ID) |
 | Element: SnuffleMat (prop) | dd6ee744-86ff-46b4-b1a2-9af14176a649 |
-| Element: Goldie | (created after owner approves a master image) |
+| Element: Goldie (character) | 743ced41-8284-4972-8b71-01bb96ca4509 — from owner-approved glam image C (job 357ceade) |
 | Goldie voice (Desmond, preset) | 563f728c-e249-5a85-97ab-8461e8c09da6 |
 
 ## SnuffleMat reference images (uploaded by owner 2026-09-27, exact Amazon product)
