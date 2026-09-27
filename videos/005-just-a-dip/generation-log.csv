@@ -1,5 +1,5 @@
 date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits,job_id,result,approved,notes
-2026-09-27,MANGO-MASTER,nano_banana_pro (served as nano_banana_2),9:16 2k,,none,base-prompt v1,2,ceff1fb7-9410-44c8-86c4-8db81e81fe69,completed,PENDING,Mango master portrait
+2026-09-27,MANGO-MASTER,nano_banana_pro (served as nano_banana_2),9:16 2k,,none,base-prompt v1,2,ceff1fb7-9410-44c8-86c4-8db81e81fe69,completed,APPROVED (Element d311ab53),Mango master portrait
 2026-09-27,KF-A,nano_banana_pro (served as nano_banana_2),9:16 2k,,master+bath 82c04915/8620b94e/8fb984ce,v1,2,e8b24280-d265-400f-b51a-849e4bb855e9,completed,PENDING,Threshold peek
 2026-09-27,KF-B,nano_banana_pro (served as nano_banana_2),9:16 2k,,master+bath x3,v1,2,a4808dc9-4370-4f5b-b71b-1ec0e28b427b,completed,PENDING,Head dip
 2026-09-27,KF-C,nano_banana_pro (served as nano_banana_2),9:16 2k,,master+bath x3,v1,2,c21ceb59-814a-4422-a807-04e479084cf5,completed,PENDING,Splash chaos
