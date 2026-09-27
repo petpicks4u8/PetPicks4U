@@ -68,3 +68,9 @@ Assembled automatically by `assemble_rough_cut.sh` (clips + Desmond/Maeve voice 
 - Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/c85d244d-11ba-497b-9bc9-805771974efb.mp4
 
 **Not yet in the rough cut (add in CapCut):** music bed, sound effects (tick-tock, "rrrip", record scratch, sniffs/snuffles, final sniff). Higgsfield has no general music/SFX generator — use CapCut's / TikTok's commercial sound library.
+
+## 7. v2 "Bored Goldie" cut (2026-09-27) — CURRENT
+Natural rewrite (`scripts/001-not-supposed-to-do-that/script-v2-natural.md`), Goldie voiced by **Benji**, owner by Maeve. Same 9 clips; built by `assemble_v2.sh`. 32.1 s.
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/d2d3ff8f-bd50-4d39-942a-9653e43203ac.mp4
+- Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/381ef70c-0a7f-40a9-8b53-91709b7e7fbd.mp4
+Still to add in CapCut: music bed + SFX (paper rip ~4.6s, record scratch on "GOLDIE!" 11.3s, sniffs 16–23s).

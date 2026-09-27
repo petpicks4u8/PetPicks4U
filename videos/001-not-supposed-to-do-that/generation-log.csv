@@ -38,3 +38,6 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,SH07,seedance_2_0-720p,9:16 5s silent,KF-7,start frame + Goldie/mat refs,clip v1,22.5,618193f5-5789-4d9c-9ebb-b1d07535435e,completed,PENDING_OWNER,resubmitted after 429 rate limit
 2026-09-27,ROUGH-CUT-CAPTIONED,ffmpeg (Higgsfield sandbox),1080x1920 30fps 30s,,all clips + VO,assemble_rough_cut.sh,0,media 451b0623-b5d4-434f-a3b7-0fa87481fb1c,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/451b0623-b5d4-434f-a3b7-0fa87481fb1c.mp4
 2026-09-27,ROUGH-CUT-CLEAN,ffmpeg (Higgsfield sandbox),1080x1920 30fps 30s,,all clips + VO (no captions),assemble_rough_cut.sh,0,media c85d244d-11ba-497b-9bc9-805771974efb,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/c85d244d-11ba-497b-9bc9-805771974efb.mp4
+2026-09-27,V2-VO x10,text2speech_v2 elevenlabs,mp3,,Benji (Goldie) + Maeve (owner),vo v2,~1.5 total,c1176877..118a5e1a (see voice-profile),completed,PENDING_OWNER,
+2026-09-27,V2-CUT-CAPTIONED,ffmpeg,1080x1920 32s,,,assemble_v2.sh,0,media d2d3ff8f-bd50-4d39-942a-9653e43203ac,uploaded,PENDING_OWNER,
+2026-09-27,V2-CUT-CLEAN,ffmpeg,1080x1920 32s,,,assemble_v2.sh,0,media 381ef70c-0a7f-40a9-8b53-91709b7e7fbd,uploaded,PENDING_OWNER,

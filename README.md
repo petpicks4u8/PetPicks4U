@@ -4,9 +4,9 @@ Entertaining AI-generated pet videos first, and product discovery through Amazon
 Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet paper and couch cushions. Nemesis: **Kevin**, a squirrel.
 
 ## Status (2026-09-26)
-- **Video #001 "I'm Not Supposed to Do That"** (AWOOF Snuffle Mat): scripted, prompted and captioned, and **ready to generate**.
+- **Video #001 "Bored Goldie"** (AWOOF Snuffle Mat): **v2 rough cut done** (32 s, Benji voice). Needs music + SFX in CapCut, then owner posts. See `videos/001-not-supposed-to-do-that/editing-plan.md` §7.
 - **Video #002 "One of You Is Kevin"** (Outward Hound Hide-A-Squirrel XL): script ready, queued next.
-- Goldie is **male (he/him)**. His voice is locked: **Desmond** (Higgsfield preset `563f728c-e249-5a85-97ab-8461e8c09da6`).
+- Goldie is **male (he/him)**. His voice is locked: **Benji** (Higgsfield preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1`), friendly and casual.
 
 ## Where things live
 | Folder | What's in it |

@@ -1,7 +1,7 @@
 {
   "source": "Higgsfield list_voices, retrieved 2026-09-26. Preset voices for text2speech_v2 (variant elevenlabs) or seed_audio. Goldie is male.",
-  "goldie_chosen_voice_id": "563f728c-e249-5a85-97ab-8461e8c09da6",
-  "human_chosen_voice_id": null,
+  "goldie_chosen_voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1",
+  "human_chosen_voice_id": "64cf4f1a-61c8-5938-9aea-83d12b2e1d13 (Maeve)",
   "goldie_candidates": [
     {
       "name": "Desmond",
@@ -105,5 +105,6 @@
     }
   ],
   "fun_note": "There is a male preset literally named 'Kevin' (f1373f24-3b96-433f-9a68-e595810ef608) \u2014 reserve it if Kevin the squirrel ever speaks.",
-  "goldie_chosen_voice_name": "Desmond"
+  "goldie_chosen_voice_name": "Benji",
+  "previous_voice": "Desmond 563f728c-e249-5a85-97ab-8461e8c09da6 (replaced 2026-09-27: owner wanted friendlier tone)"
 }

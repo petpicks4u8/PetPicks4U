@@ -13,7 +13,7 @@ No separate voice service is required. If you ever outgrow the presets, ElevenLa
 
 ## Picking Goldie's voice (male) — your 5-minute task
 
-Goldie's voice must be: **confident · calm · dry/sarcastic · warm · memorable.** Think "unbothered big guy who narrates his own bad decisions." Not hyperactive, cartoonish, childish, or cartoon-deep "movie trailer."
+Goldie's voice must be: **friendly · warm · casual · playful · memorable** (updated 2026-09-27; was dry/sarcastic). Think "unbothered big guy who narrates his own bad decisions." Not hyperactive, cartoonish, childish, or cartoon-deep "movie trailer."
 
 Honest note: this environment can't play or download the preview audio, so **I picked these from Higgsfield's male preset catalogue but have not heard them.** Your ear makes the final call. Preview links + voice IDs are in `voice-candidates.json`.
 
@@ -40,8 +40,9 @@ Option: tell me "run the voice auditions" and I'll generate those two lines in t
 
 ```
 Engine: text2speech_v2 / elevenlabs
-Voice name: Desmond (LOCKED 2026-09-27 by owner)
-Voice ID: 563f728c-e249-5a85-97ab-8461e8c09da6
+Voice name: Benji (LOCKED 2026-09-27 by owner — replaced Desmond; friendlier tone)
+Voice ID: e6f9b893-51b1-51d3-afe9-9e0482cb7ac1
+Owner / human voice: Maeve 64cf4f1a-61c8-5938-9aea-83d12b2e1d13
 Voice type: preset
 Delivery notes: slow, dry, a beat of silence before punchlines; export WAV
 ```
