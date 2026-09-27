@@ -13,6 +13,9 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 - Goldie voice: Benji preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` via `text2speech_v2` / `elevenlabs`. Owner (Mom) voice: Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13`.
 - Proven pipeline: Nano Banana Pro keyframes (Goldie element + product element) → Kling 3.0 Pro for low-motion clips, Seedance 2.0 720p (start frame + Goldie/product image refs) for interaction → TTS lines → ffmpeg assembly in the Higgsfield sandbox (see `videos/001-not-supposed-to-do-that/assemble_v3.sh`) → owner adds music/SFX in CapCut.
 
+## Website
+- `website/` is the Next.js link-in-bio site. Content lives only in `website/src/content/` (pets, products, affiliate-links, short-links). When a video goes live, set that product's `published: true` and `videoUrl`, and have the owner paste its affiliate link in `affiliate-links.ts`. Never invent affiliate links or show prices.
+
 ## Rules
 - Never fabricate product data; label VERIFIED / SNIPPET / UNVERIFIED. amazon.com is blocked from this environment — use web search and ask the owner to confirm live numbers.
 - Product reference photos from the owner are the source of truth; never invent product features.

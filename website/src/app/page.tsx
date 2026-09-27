@@ -1,0 +1,235 @@
+import Link from "next/link";
+import { ArrowDown, ArrowRight, Eye, HeartHandshake, Sparkles } from "lucide-react";
+import { site } from "@/content/site";
+import {
+  getActiveCategories,
+  getCategory,
+  getLatestProducts,
+  getPets,
+  getProducts,
+  getSearchIndex,
+  getSearchSuggestions,
+  getTrendingProducts,
+} from "@/lib/data";
+import { ComingSoonCard, PetCard } from "@/components/PetCard";
+import { ProductCard, ProductGrid } from "@/components/ProductCard";
+import { SearchPanel } from "@/components/SearchPanel";
+import { SmartImage } from "@/components/SmartImage";
+import { JsonLd } from "@/components/JsonLd";
+import { ButtonLink, Container, Eyebrow, SectionHeading } from "@/components/ui";
+
+export default async function HomePage() {
+  const [pets, products, trending, latestAll, categories, records, suggestions] = await Promise.all([
+    getPets(),
+    getProducts(),
+    getTrendingProducts(),
+    getLatestProducts(6),
+    getActiveCategories(),
+    getSearchIndex(),
+    getSearchSuggestions(),
+  ]);
+  const petById = new Map(pets.map((p) => [p.id, p]));
+  const trendingIds = new Set(trending.map((p) => p.id));
+  const latest = latestAll.filter((p) => !trendingIds.has(p.id));
+  const star = pets[0];
+  const starPick = trending.find((p) => p.petId === star?.id) ?? products[0];
+
+  return (
+    <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: site.name,
+          url: site.url,
+          description: site.description,
+          potentialAction: {
+            "@type": "SearchAction",
+            target: `${site.url}/products?q={search_term_string}`,
+            "query-input": "required name=search_term_string",
+          },
+        }}
+      />
+
+      {/* HERO */}
+      <section className="relative overflow-hidden">
+        <div className="grain pointer-events-none absolute inset-0 opacity-60" aria-hidden />
+        <Container className="relative grid items-center gap-10 pt-10 pb-8 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:pt-20 lg:pb-16">
+          <div>
+            <Eyebrow className="rise">Straight from the videos</Eyebrow>
+            <h1
+              className="rise mt-4 font-display text-[2.7rem] leading-[1.02] font-medium text-ink sm:text-6xl lg:text-7xl"
+              style={{ "--d": 1 } as React.CSSProperties}
+            >
+              The internet’s favorite pets pick their <em className="text-forest italic">favorite things.</em>
+            </h1>
+            <p
+              className="rise mt-5 max-w-md text-[1.08rem] leading-relaxed text-ink-soft sm:text-lg"
+              style={{ "--d": 2 } as React.CSSProperties}
+            >
+              Saw it on TikTok, Reels or Shorts? Tap the pet, find the product. Honest notes included.
+            </p>
+            <div className="rise mt-7 flex flex-wrap gap-3" style={{ "--d": 3 } as React.CSSProperties}>
+              <ButtonLink href="#pets">
+                Meet the Pets <ArrowDown className="size-4.5" aria-hidden />
+              </ButtonLink>
+              <ButtonLink href="#find" variant="secondary">
+                Find a Product
+              </ButtonLink>
+            </div>
+          </div>
+
+          {star && (
+            <div className="rise relative mx-auto hidden w-full max-w-sm lg:block" style={{ "--d": 2 } as React.CSSProperties}>
+              <div className="relative aspect-[4/5] overflow-hidden rounded-t-[12rem] rounded-b-[2.5rem] bg-cream shadow-lift ring-1 ring-line/60">
+                <SmartImage
+                  src={star.heroImage.src}
+                  alt={star.heroImage.alt}
+                  fill
+                  priority
+                  sizes="384px"
+                  className="object-cover object-[50%_25%]"
+                  fallbackLabel={star.name}
+                />
+              </div>
+              {starPick && (
+                <Link
+                  href={`/products/${starPick.slug}`}
+                  className="absolute -bottom-6 -left-10 max-w-64 rounded-3xl bg-white/95 p-4 shadow-lift ring-1 ring-line/60 backdrop-blur transition-transform hover:-translate-y-0.5"
+                >
+                  <p className="text-xs font-semibold tracking-wide text-brass uppercase">{star.name}’s verdict</p>
+                  <p className="mt-1 font-display text-[1.02rem] leading-snug text-ink italic">“{starPick.shortVerdict}”</p>
+                </Link>
+              )}
+            </div>
+          )}
+        </Container>
+      </section>
+
+      {/* WHO SENT YOU HERE? */}
+      <section aria-labelledby="pets" className="scroll-mt-20">
+        <Container className="pt-6 sm:pt-10">
+          <SectionHeading id="pets" eyebrow="Meet the pets" title="Who sent you here?" />
+          <div className="grid gap-5 lg:grid-cols-2">
+            {pets.map((pet, i) => (
+              <PetCard
+                key={pet.id}
+                pet={pet}
+                index={i}
+                priority={i === 0}
+                pickCount={products.filter((p) => p.petId === pet.id).length}
+              />
+            ))}
+            <ComingSoonCard />
+          </div>
+        </Container>
+      </section>
+
+      {/* SEEN IT IN A VIDEO? */}
+      <section aria-labelledby="find" className="scroll-mt-20">
+        <Container className="pt-16 sm:pt-24">
+          <div className="rounded-[2rem] bg-forest px-5 py-9 text-paper sm:px-12 sm:py-14">
+            <div className="mx-auto max-w-xl">
+              <p className="text-[0.78rem] font-semibold tracking-[0.16em] text-brass-tint/80 uppercase">Seen something in one of our videos?</p>
+              <h2 id="find" className="mt-2 font-display text-[2rem] leading-tight font-medium sm:text-[2.6rem]">
+                Find the product.
+              </h2>
+              <p className="mt-2 mb-6 text-paper/75">Search by product, pet, or whatever you remember.</p>
+              <SearchPanel records={records} suggestions={suggestions} />
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* TRENDING */}
+      {trending.length > 0 && (
+        <section aria-labelledby="trending">
+          <Container className="pt-16 sm:pt-24">
+            <SectionHeading
+              id="trending"
+              eyebrow="Trending picks"
+              title="Starring in our videos right now"
+              action={
+                <Link href="/products" className="hidden min-h-11 items-center gap-1.5 font-semibold text-forest sm:inline-flex">
+                  All picks <ArrowRight className="size-4" aria-hidden />
+                </Link>
+              }
+            />
+            <ProductGrid>
+              {trending.map((p, i) => (
+                <ProductCard key={p.id} product={p} pet={petById.get(p.petId)} category={getCategory(p.category)} index={i} />
+              ))}
+            </ProductGrid>
+          </Container>
+        </section>
+      )}
+
+      {/* LATEST */}
+      {latest.length > 0 && (
+        <section aria-labelledby="latest">
+          <Container className="pt-16 sm:pt-24">
+            <SectionHeading id="latest" eyebrow="Latest picks" title="Freshly sniffed" />
+            <ProductGrid>
+              {latest.map((p, i) => (
+                <ProductCard key={p.id} product={p} pet={petById.get(p.petId)} category={getCategory(p.category)} index={i} />
+              ))}
+            </ProductGrid>
+          </Container>
+        </section>
+      )}
+
+      {/* CATEGORIES */}
+      {categories.length > 0 && (
+        <section aria-labelledby="categories">
+          <Container className="pt-16 sm:pt-20">
+            <h2 id="categories" className="mb-4 text-sm font-semibold text-muted">
+              Browse by category
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {categories.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/categories/${c.slug}`}
+                  className="inline-flex min-h-11 items-center gap-2 rounded-full bg-white px-5 font-medium text-ink shadow-soft ring-1 ring-line/60 transition-transform hover:-translate-y-0.5"
+                >
+                  {c.name} <span className="text-sm text-muted">{c.count}</span>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* PHILOSOPHY */}
+      <section aria-labelledby="philosophy">
+        <Container className="pt-20 sm:pt-28">
+          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
+            <div>
+              <Eyebrow>Why PetPicks4U</Eyebrow>
+              <h2 id="philosophy" className="mt-2 font-display text-[2rem] leading-tight font-medium sm:text-4xl">
+                Fun videos. Useful picks. No nonsense.
+              </h2>
+              <p className="mt-4 max-w-md leading-relaxed text-ink-soft">
+                We find genuinely interesting things for pets, let our characters have fun with them, and give you one simple place to find
+                what you saw.
+              </p>
+            </div>
+            <ul className="grid gap-4 sm:grid-cols-3 lg:gap-5">
+              {[
+                { Icon: Sparkles, title: "Picked, not paid", body: "Products earn a spot by being interesting — not because a brand asked." },
+                { Icon: Eye, title: "Honest downsides", body: "Every review has a ‘Things to know’ section. Not everything is for every pet." },
+                { Icon: HeartHandshake, title: "Clear disclosure", body: "Links may earn us a small commission. Prices never change for you." },
+              ].map(({ Icon, title, body }) => (
+                <li key={title} className="rounded-3xl bg-white/70 p-5 ring-1 ring-line/70">
+                  <Icon className="size-5 text-forest" aria-hidden />
+                  <p className="mt-3 font-semibold text-ink">{title}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-muted">{body}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Container>
+      </section>
+    </>
+  );
+}
