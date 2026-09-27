@@ -12,3 +12,8 @@
 | 12.0–15.0 | SH05 smile + CTA | "Fountain's in my bio. Toilet's all yours!" |
 
 CapCut to-do: slurp SFX 0.0s, record scratch 2.4s, gentle water/bubbly music from 4.9s. Website: when posted, set P011 product `published: true` + `videoUrl`, owner pastes affiliate link.
+
+## v2 (2026-09-27) — CURRENT
+Owner changes: natural toilet opener (no line, "*slurp slurp slurp*" caption), guilty look + "Oops… I'm not supposed to drink from here, am I?", 0.4 s crossfade into the fountain, "Mom and Dad got me this fountain, and let me tell you… it's WAY better than the toilet!", benefits line, "It's in my bio!". #ad/AI line shown the whole video. 15.0 s. Built by `assemble_v2.sh`.
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7.mp4
+- Clean: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7344e3b4-1b95-4438-808d-ebe3bc6e01c3.mp4

@@ -12,3 +12,8 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,VO1-5 Benji,text2speech_v2 elevenlabs,mp3,,Benji,v1,~0.75,0a385338 6149d00f 38c3c5a1 4b02f6f5 469ec526,completed,,
 2026-09-27,CUT-CAPTIONED,ffmpeg (Higgsfield sandbox),1080x1920 15.0s,,,assemble_v1.sh,0,media 624ff839-d2ce-4172-9bfd-66dbae8896ee,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/624ff839-d2ce-4172-9bfd-66dbae8896ee.mp4
 2026-09-27,CUT-CLEAN,ffmpeg (Higgsfield sandbox),1080x1920 15.0s,,,assemble_v1.sh,0,media 14ba0060-984a-4418-a254-8a111567d0a1,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/14ba0060-984a-4418-a254-8a111567d0a1.mp4
+2026-09-27,KF-2b guilty (x2),nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie element,v2 owner: guilty look,4,56134e1b-6193-458f-8fc4-3b690f643769 (used) / 115a4b30-806c-43b7-b284-07d313721d71 (spare),completed,,
+2026-09-27,SH02b guilty,kling3_0-pro,9:16 5s silent,KF-2b,,v2,8.75,79b0b1c0-71d1-4a97-b28e-eb458ba02f8b,completed,PENDING_OWNER,
+2026-09-27,VO v2 x4 (Benji),text2speech_v2 elevenlabs,mp3,,Benji,v2 lines,~0.6,c4af8efe 4c0fd305 10b8583b cfc60471,completed,,
+2026-09-27,V2-CUT-CAPTIONED,ffmpeg,1080x1920 15.0s,,,assemble_v2.sh,0,media 9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7.mp4
+2026-09-27,V2-CUT-CLEAN,ffmpeg,1080x1920 15.0s,,,assemble_v2.sh,0,media 7344e3b4-1b95-4438-808d-ebe3bc6e01c3,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7344e3b4-1b95-4438-808d-ebe3bc6e01c3.mp4
