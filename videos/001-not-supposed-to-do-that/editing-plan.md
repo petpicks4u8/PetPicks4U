@@ -61,3 +61,10 @@ Generate with Goldie's locked voice (see `characters/goldie/voice-profile.md`); 
 2. Entertainment or ad? The product must not appear before ~0:15.
 3. Does every clip pass the approval checklist?
 4. Is the mat clearly visible and recognisable in SH06b and SH09?
+
+## 6. Rough cut v1 (built 2026-09-27)
+Assembled automatically by `assemble_rough_cut.sh` (clips + Desmond/Maeve voice lines + burned captions + #ad/AI disclosure). Final length 30.0 s — timings shifted slightly from §2 to fit the real voice-line lengths (scene 8 = 22.0–25.8, scene 9 = 25.8–30.0).
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/451b0623-b5d4-434f-a3b7-0fa87481fb1c.mp4
+- Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/c85d244d-11ba-497b-9bc9-805771974efb.mp4
+
+**Not yet in the rough cut (add in CapCut):** music bed, sound effects (tick-tock, "rrrip", record scratch, sniffs/snuffles, final sniff). Higgsfield has no general music/SFX generator — use CapCut's / TikTok's commercial sound library.
