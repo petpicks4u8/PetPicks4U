@@ -23,3 +23,9 @@ The music is ducked under the voice (sidechain), fades in over 0.8 s and fades o
 - **A, Beach (captioned):** f6abe310-7715-4a86-9d2d-ca545bfde931
 - **B, Lo-fi (captioned):** c570f70b-a89d-4ef2-b718-cc44790a2ecb
 - Video track reused from v1 captioned (837a1362). Caption 1 still reads "Morning routine." (the VO now says "Mmm… morning routine.").
+
+## v3 (owner: "only keep the splash inside the bath")
+- Removed the drips (0.1, 12.6, 14.2 s) and the gentle dip splash (4.3–7.5 s).
+- Kept **only** the full bath splash at 7.4–11.6 s. Voice and music are unchanged.
+- **A, Beach (captioned):** d25de6e6-4e31-48cf-a000-2c7a20135099
+- **B, Lo-fi (captioned):** eb343b19-63e0-4f4e-96ad-2f00ec60cdd6
