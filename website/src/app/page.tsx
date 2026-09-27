@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowDown, ArrowRight, Eye, HeartHandshake, Sparkles } from "lucide-react";
+import { ArrowDown, ArrowRight, PawPrint, Search, ShoppingCart } from "lucide-react";
 import { site } from "@/content/site";
 import {
   getActiveCategories,
@@ -16,6 +16,7 @@ import { ProductCard, ProductGrid } from "@/components/ProductCard";
 import { SearchPanel } from "@/components/SearchPanel";
 import { SmartImage } from "@/components/SmartImage";
 import { JsonLd } from "@/components/JsonLd";
+import { PawMark, Smile, Sparks } from "@/components/icons";
 import { ButtonLink, Container, Eyebrow, SectionHeading } from "@/components/ui";
 
 export default async function HomePage() {
@@ -31,7 +32,7 @@ export default async function HomePage() {
   const petById = new Map(pets.map((p) => [p.id, p]));
   const trendingIds = new Set(trending.map((p) => p.id));
   const latest = latestAll.filter((p) => !trendingIds.has(p.id));
-  const star = pets[0];
+  const [star, sidekick] = pets;
   const starPick = trending.find((p) => p.petId === star?.id) ?? products[0];
 
   return (
@@ -51,20 +52,33 @@ export default async function HomePage() {
         }}
       />
 
-      {/* HERO */}
+      {/* HERO — echoes the logo artwork: big wordmark, orange smile, scattered paws */}
       <section className="relative overflow-hidden">
         <div className="grain pointer-events-none absolute inset-0 opacity-60" aria-hidden />
-        <Container className="relative grid items-center gap-10 pt-10 pb-8 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:pt-20 lg:pb-16">
+        <PawMark className="pointer-events-none absolute top-6 right-[6%] size-12 rotate-[18deg] text-brand/80 sm:size-16" />
+        <PawMark className="pointer-events-none absolute bottom-10 left-[46%] hidden size-10 rotate-[-20deg] text-brand/40 lg:block" />
+        <PawMark className="pointer-events-none absolute top-24 left-[2%] hidden size-9 rotate-[-25deg] text-brand/30 sm:block" />
+        <Container className="relative grid items-center gap-10 pt-9 pb-8 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:pt-20 lg:pb-20">
           <div>
-            <Eyebrow className="rise">Handpicked finds for happy pets</Eyebrow>
+            <div className="rise relative inline-flex flex-col items-center">
+              <Sparks className="absolute -top-5 -left-6 size-8 -rotate-12 text-brand sm:-left-8 sm:size-10" />
+              <p className="font-display text-[3.1rem] leading-none font-black tracking-[-0.05em] text-ink sm:text-7xl lg:text-[5.2rem]">
+                PetPicks<span className="text-brand">4</span>You
+              </p>
+              <Smile className="mt-1 h-4 w-[82%] text-brand sm:h-6" />
+            </div>
+            <p className="rise mt-4 text-[0.72rem] font-semibold tracking-[0.2em] text-ink-soft uppercase sm:text-sm sm:tracking-[0.32em]" style={{ "--d": 1 } as React.CSSProperties}>
+              {site.motto}
+            </p>
             <h1
-              className="rise mt-4 font-display text-[2.7rem] leading-[1.02] font-medium text-ink sm:text-6xl lg:text-7xl"
-              style={{ "--d": 1 } as React.CSSProperties}
+              className="rise mt-7 font-display text-[2.05rem] leading-[1.08] text-ink sm:text-5xl"
+              style={{ "--d": 2 } as React.CSSProperties}
             >
-              The internet’s favorite pets pick their <em className="font-script text-[1.12em] leading-none font-bold text-brand-deep not-italic">favorite things.</em>
+              The internet’s favorite pets pick their{" "}
+              <em className="font-script text-[1.18em] leading-none font-bold text-brand-deep not-italic">favorite things.</em>
             </h1>
             <p
-              className="rise mt-5 max-w-md text-[1.08rem] leading-relaxed text-ink-soft sm:text-lg"
+              className="rise mt-4 max-w-md text-[1.05rem] leading-relaxed text-ink-soft sm:text-lg"
               style={{ "--d": 2 } as React.CSSProperties}
             >
               Saw it on TikTok, Reels or Shorts? Tap the pet, find the product. Honest notes included.
@@ -92,12 +106,28 @@ export default async function HomePage() {
                   fallbackLabel={star.name}
                 />
               </div>
+              {sidekick && (
+                <Link
+                  href={`/pets/${sidekick.slug}`}
+                  aria-label={`Meet ${sidekick.name}`}
+                  className="absolute -right-8 bottom-16 size-36 overflow-hidden rounded-full bg-cream shadow-lift ring-[6px] ring-paper transition-transform hover:-translate-y-1"
+                >
+                  <SmartImage
+                    src={sidekick.profileImage.src}
+                    alt={sidekick.profileImage.alt}
+                    fill
+                    sizes="144px"
+                    className="object-cover object-[50%_30%]"
+                    fallbackLabel={sidekick.name}
+                  />
+                </Link>
+              )}
               {starPick && (
                 <Link
                   href={`/products/${starPick.slug}`}
                   className="absolute -bottom-6 -left-10 max-w-64 rounded-3xl bg-white/95 p-4 shadow-lift ring-1 ring-line/60 backdrop-blur transition-transform hover:-translate-y-0.5"
                 >
-                  <p className="text-xs font-semibold tracking-wide text-brand uppercase">{star.name}’s verdict</p>
+                  <p className="text-xs font-semibold tracking-wide text-brand-deep uppercase">{star.name}’s verdict</p>
                   <p className="mt-1 font-script text-[1.4rem] leading-tight text-ink">“{starPick.shortVerdict}”</p>
                 </Link>
               )}
@@ -205,7 +235,7 @@ export default async function HomePage() {
         <Container className="pt-20 sm:pt-28">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
             <div>
-              <Eyebrow>Why PetPicks4U</Eyebrow>
+              <Eyebrow>Why PetPicks4You</Eyebrow>
               <h2 id="philosophy" className="mt-2 font-display text-[2rem] leading-tight font-medium sm:text-4xl">
                 Fun videos. Useful picks. No nonsense.
               </h2>
@@ -214,16 +244,20 @@ export default async function HomePage() {
                 what you saw.
               </p>
             </div>
-            <ul className="grid gap-4 sm:grid-cols-3 lg:gap-5">
+            <ul className="grid gap-6 sm:grid-cols-3 lg:gap-8">
               {[
-                { Icon: Sparkles, title: "Picked, not paid", body: "Products earn a spot by being interesting — not because a brand asked." },
-                { Icon: Eye, title: "Honest downsides", body: "Every review has a ‘Things to know’ section. Not everything is for every pet." },
-                { Icon: HeartHandshake, title: "Clear disclosure", body: "Links may earn us a small commission. Prices never change for you." },
+                { Icon: Search, title: "Carefully selected products", body: "Things earn a spot by being interesting, not because a brand asked. Every review lists the downsides too." },
+                { Icon: PawPrint, title: "For all pets", body: "Dogs, birds, and more characters on the way. Each pet has their own picks." },
+                { Icon: ShoppingCart, title: "Amazon affiliate", body: "Links may earn us a small commission. The price you pay never changes." },
               ].map(({ Icon, title, body }) => (
-                <li key={title} className="rounded-3xl bg-white/70 p-5 ring-1 ring-line/70">
-                  <Icon className="size-5 text-brand-deep" aria-hidden />
-                  <p className="mt-3 font-semibold text-ink">{title}</p>
-                  <p className="mt-1 text-sm leading-relaxed text-muted">{body}</p>
+                <li key={title} className="flex gap-4 sm:flex-col sm:gap-0">
+                  <span className="grid size-16 shrink-0 place-items-center rounded-full bg-white shadow-soft ring-1 ring-line/60">
+                    <Icon className="size-6 text-ink" aria-hidden />
+                  </span>
+                  <span>
+                    <span className="block text-[0.8rem] font-bold tracking-[0.18em] text-ink uppercase sm:mt-4">{title}</span>
+                    <span className="mt-1.5 block text-sm leading-relaxed text-muted">{body}</span>
+                  </span>
                 </li>
               ))}
             </ul>

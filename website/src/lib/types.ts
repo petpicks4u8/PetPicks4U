@@ -1,5 +1,5 @@
 /**
- * Core content types for PetPicks4U.
+ * Core content types for PetPicks4You.
  *
  * Every page is generated from these shapes. Today the data lives in
  * `src/content/*.ts`; later a CMS or database can return the same shapes from
@@ -25,7 +25,7 @@ export interface Pet {
   id: string;
   slug: string;
   name: string;
-  species: "dog" | "cat" | "other";
+  species: "dog" | "cat" | "bird" | "rabbit" | "other";
   breed: string;
   /** he/him, she/her, they/them — used in copy so we never guess. */
   pronouns: string;

@@ -22,6 +22,8 @@ export const affiliateLinks: Record<string, string> = {
   P003: AMAZON_AFFILIATE_URL,
   // Outward Hound Hide-A-Squirrel XL (draft until video #002 is live)
   P001: AMAZON_AFFILIATE_URL,
+  // Colorday Large Bird Bath for Cage (Mango, video #005)
+  P012: AMAZON_AFFILIATE_URL,
 };
 
 export function isPlaceholderUrl(url: string | undefined): boolean {

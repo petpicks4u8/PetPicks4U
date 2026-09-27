@@ -1,4 +1,4 @@
-# PetPicks4U website
+# PetPicks4You website
 
 The link-in-bio site. Someone sees Goldie on TikTok, taps the bio link, taps Goldie, taps the product, then taps **View on Amazon**.
 

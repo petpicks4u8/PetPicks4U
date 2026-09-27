@@ -1,7 +1,7 @@
 import { getPetById, getProduct, getProducts } from "@/lib/data";
 import { ogSize, renderOgCard } from "@/lib/og";
 
-export const alt = "Product review on PetPicks4U";
+export const alt = "Product review on PetPicks4You";
 export const size = ogSize;
 export const contentType = "image/png";
 
@@ -14,8 +14,8 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const product = await getProduct(slug);
   const pet = product ? await getPetById(product.petId) : undefined;
   return renderOgCard({
-    eyebrow: pet ? `Reviewed by ${pet.name}` : "PetPicks4U review",
-    title: product?.shortName ?? "PetPicks4U",
+    eyebrow: pet ? `Reviewed by ${pet.name}` : "PetPicks4You review",
+    title: product?.shortName ?? "PetPicks4You",
     quote: product?.shortVerdict,
     photo: product?.image.src,
   });

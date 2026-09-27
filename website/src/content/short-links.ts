@@ -21,4 +21,10 @@ export const shortLinks: ShortLink[] = [
     utm: { source: "tiktok", medium: "social", campaign: "video", content: "v001-bored-goldie" },
     note: "Video #001 — Bored Goldie (snuffle mat)",
   },
+  {
+    code: "v005",
+    target: "/products/bird-bath",
+    utm: { source: "tiktok", medium: "social", campaign: "video", content: "v005-morning-dip" },
+    note: "Video #005 — Mango's Morning Dip (bird bath)",
+  },
 ];

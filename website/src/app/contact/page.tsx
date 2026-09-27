@@ -5,7 +5,7 @@ import { ProsePage } from "@/components/ProsePage";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Say hi to the PetPicks4U team.",
+  description: "Say hi to the PetPicks4You team.",
   alternates: { canonical: "/contact" },
 };
 

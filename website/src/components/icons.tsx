@@ -34,24 +34,51 @@ export const platformMeta: Record<SocialPlatform, { label: string; Icon: (p: Ico
   youtube: { label: "YouTube", Icon: YouTubeIcon },
 };
 
-/**
- * Wordmark matching the owner's logo: bold rounded lowercase, orange "4",
- * with a small orange paw. (No Amazon-style smile arrow — Amazon's
- * trademark rules don't allow look-alikes.)
- */
-export function Logo({ className = "" }: IconProps) {
+/** Orange smile swoosh from the logo (a plain crescent — no arrowhead). */
+export function Smile({ className = "" }: IconProps) {
   return (
-    <span className={`inline-flex items-center gap-1.5 ${className}`}>
-      <svg viewBox="0 0 24 24" className="size-7 text-brand" fill="currentColor" aria-hidden>
-        <ellipse cx="6.2" cy="9.2" rx="2.1" ry="2.6" transform="rotate(-18 6.2 9.2)" />
-        <ellipse cx="10" cy="5.6" rx="2.1" ry="2.7" transform="rotate(-6 10 5.6)" />
-        <ellipse cx="14.6" cy="5.6" rx="2.1" ry="2.7" transform="rotate(8 14.6 5.6)" />
-        <ellipse cx="18.3" cy="9.4" rx="2.1" ry="2.6" transform="rotate(20 18.3 9.4)" />
-        <path d="M12.3 10.6c-3.1 0-6.3 3.5-6.3 6.3 0 1.8 1.4 2.7 3 2.7 1.3 0 2.1-.7 3.3-.7s2 .7 3.3.7c1.6 0 3-.9 3-2.7 0-2.8-3.2-6.3-6.3-6.3Z" />
-      </svg>
-      <span className="font-display text-[1.6rem] leading-none font-black tracking-[-0.04em] text-ink">
-        petpicks<span className="text-brand">4</span>u
+    <svg viewBox="0 0 200 22" preserveAspectRatio="none" className={className} aria-hidden>
+      <path d="M3 4 C 58 19, 142 19, 197 3 C 150 23, 52 24, 3 4 Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+/**
+ * Wordmark matching the owner's logo: bold rounded "PetPicks4You" with an
+ * orange 4 and an orange smile underneath.
+ */
+export function Logo({ className = "", size = "md" }: IconProps & { size?: "md" | "lg" }) {
+  const text = size === "lg" ? "text-[2rem]" : "text-[1.5rem]";
+  return (
+    <span className={`relative inline-flex flex-col items-center pb-1.5 ${className}`}>
+      <span className={`font-display ${text} leading-none font-black tracking-[-0.045em] text-ink`}>
+        PetPicks<span className="text-brand">4</span>You
       </span>
+      <Smile className="absolute -bottom-0.5 left-[8%] h-2 w-[84%] text-brand" />
     </span>
+  );
+}
+
+/** Filled paw print used as scattered decoration (like the logo artwork). */
+export function PawMark({ className = "", style }: IconProps & { style?: React.CSSProperties }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} style={style} aria-hidden>
+      <ellipse cx="6.2" cy="9.2" rx="2.1" ry="2.6" transform="rotate(-18 6.2 9.2)" />
+      <ellipse cx="10" cy="5.6" rx="2.1" ry="2.7" transform="rotate(-6 10 5.6)" />
+      <ellipse cx="14.6" cy="5.6" rx="2.1" ry="2.7" transform="rotate(8 14.6 5.6)" />
+      <ellipse cx="18.3" cy="9.4" rx="2.1" ry="2.6" transform="rotate(20 18.3 9.4)" />
+      <path d="M12.3 10.6c-3.1 0-6.3 3.5-6.3 6.3 0 1.8 1.4 2.7 3 2.7 1.3 0 2.1-.7 3.3-.7s2 .7 3.3.7c1.6 0 3-.9 3-2.7 0-2.8-3.2-6.3-6.3-6.3Z" />
+    </svg>
+  );
+}
+
+/** Three little hand-drawn "excitement" dashes. */
+export function Sparks({ className = "" }: IconProps) {
+  return (
+    <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth={3.2} strokeLinecap="round" className={className} aria-hidden>
+      <path d="M8 26 L3 30" />
+      <path d="M14 16 L10 6" />
+      <path d="M24 14 L30 5" />
+    </svg>
   );
 }

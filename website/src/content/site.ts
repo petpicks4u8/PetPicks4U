@@ -1,10 +1,11 @@
 import type { SocialLink } from "@/lib/types";
 
 export const site = {
-  name: "PetPicks4U",
+  name: "PetPicks4You",
   tagline: "The internet’s favorite pets pick their favorite things.",
+  motto: "Handpicked finds for happy pets",
   description:
-    "Find the products from Goldie’s videos in two taps. Honest, playful picks from the internet’s favorite pets.",
+    "Handpicked finds for happy pets. Find the products from our pets’ videos in two taps, with honest notes included.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://petpicks4u.com").replace(/\/$/, ""),
   /** Public contact address shown on /contact. Leave empty to hide. */
   contactEmail: "",
@@ -15,8 +16,8 @@ export const site = {
     { platform: "youtube", url: "" },
   ] satisfies SocialLink[] as SocialLink[],
   disclosure: {
-    short: "PetPicks4U may earn a commission when you buy through our links, at no extra cost to you.",
-    amazon: "As an Amazon Associate, PetPicks4U earns from qualifying purchases.",
+    short: "PetPicks4You may earn a commission when you buy through our links, at no extra cost to you.",
+    amazon: "As an Amazon Associate, PetPicks4You earns from qualifying purchases.",
     ai: "Our pets are AI-generated characters. Their verdicts are for fun; the product notes are written by real humans.",
   },
 };

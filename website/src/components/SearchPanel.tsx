@@ -14,7 +14,7 @@ export function SearchPanel({
   autoFocus = false,
   initialQuery = "",
   onNavigate,
-  placeholder = "Try “snuffle”, “Goldie” or “toy”",
+  placeholder = "Try “snuffle”, “Mango” or “bath”",
 }: {
   records: SearchRecord[];
   suggestions: string[];

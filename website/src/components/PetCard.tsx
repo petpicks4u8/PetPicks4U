@@ -43,9 +43,9 @@ export function PetCard({ pet, pickCount, priority = false, index = 0 }: { pet: 
 /** Honest empty state: new characters are on the way. */
 export function ComingSoonCard() {
   return (
-    <div className="grain flex min-h-40 flex-col items-center justify-center rounded-[var(--radius-card)] border border-dashed border-sand px-6 py-10 text-center">
+    <div className="grain flex min-h-32 lg:col-span-2 flex-col items-center justify-center rounded-[var(--radius-card)] border border-dashed border-sand px-6 py-8 text-center">
       <p className="font-display text-2xl text-ink">More pets are auditioning.</p>
-      <p className="mt-2 max-w-xs text-sm text-muted">New characters join the cast soon. Goldie is being very professional about it.</p>
+      <p className="mt-2 max-w-xs text-sm text-muted">New characters join the cast soon. The current cast is being very professional about it.</p>
     </div>
   );
 }

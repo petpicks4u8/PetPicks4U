@@ -41,4 +41,33 @@ export const pets: Pet[] = [
     published: true,
     order: 1,
   },
+  {
+    id: "mango",
+    slug: "mango",
+    name: "Mango",
+    species: "bird",
+    breed: "Sun Conure",
+    pronouns: "he/him",
+    bio: "Sun Conure. Small bird, massive confidence. Quietly certain the whole house belongs to him, and personally inspects every new object that dares to arrive.",
+    shortBio: "Small bird. Massive confidence.",
+    profileImage: {
+      // Owner-approved Mango master (Higgsfield job ceff1fb7, element d311ab53)
+      src: `${HF}/hf_20260927_122545_ceff1fb7-9410-44c8-86c4-8db81e81fe69.png`,
+      alt: "Mango, a bright yellow and orange Sun Conure, perched on a wooden branch",
+      width: 1536,
+      height: 2752,
+    },
+    heroImage: {
+      src: `${HF}/hf_20260927_122545_ceff1fb7-9410-44c8-86c4-8db81e81fe69.png`,
+      alt: "Mango the Sun Conure perched by the living-room window",
+      width: 1536,
+      height: 2752,
+    },
+    personality: ["Curious", "Bold", "Nosy", "A little dramatic", "Self-appointed inspector"],
+    socialLinks: [],
+    featuredProducts: ["P012"],
+    accent: "#FDE8CC",
+    published: true,
+    order: 2,
+  },
 ];

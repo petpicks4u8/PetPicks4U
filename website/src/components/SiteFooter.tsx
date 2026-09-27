@@ -31,7 +31,7 @@ export function SiteFooter() {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`PetPicks4U on ${label}`}
+                      aria-label={`PetPicks4You on ${label}`}
                       className="grid size-11 place-items-center rounded-full bg-white text-ink shadow-soft ring-1 ring-line transition-transform hover:-translate-y-0.5"
                     >
                       <Icon className="size-5" />
@@ -57,7 +57,7 @@ export function SiteFooter() {
             </Link>
           </p>
           <p>{site.disclosure.ai}</p>
-          <p>© {new Date().getFullYear()} PetPicks4U. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+          <p>© {new Date().getFullYear()} PetPicks4You. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
         </div>
       </Container>
     </footer>

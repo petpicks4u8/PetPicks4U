@@ -4,7 +4,7 @@ import { ProsePage } from "@/components/ProsePage";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
-  description: "How PetPicks4U earns money through affiliate links, including the Amazon Associates program.",
+  description: "How PetPicks4You earns money through affiliate links, including the Amazon Associates program.",
   alternates: { canonical: "/affiliate-disclosure" },
 };
 
@@ -13,7 +13,7 @@ export default function AffiliateDisclosurePage() {
     <ProsePage eyebrow="Transparency" title="Affiliate disclosure" intro={site.disclosure.short}>
       <h2>Amazon Associates</h2>
       <p>
-        <strong>{site.disclosure.amazon}</strong> PetPicks4U is a participant in the Amazon Services LLC Associates Program, an affiliate
+        <strong>{site.disclosure.amazon}</strong> PetPicks4You is a participant in the Amazon Services LLC Associates Program, an affiliate
         advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
       </p>
       <h2>What that means for you</h2>

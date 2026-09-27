@@ -58,7 +58,7 @@ export function SiteHeader({ records, suggestions }: { records: SearchRecord[]; 
     <>
       <header className="sticky top-0 z-40 border-b border-line/50 bg-paper/80 backdrop-blur-xl backdrop-saturate-150">
         <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-5 sm:px-8">
-          <Link href="/" aria-label="PetPicks4U home" className="-ml-1 rounded-full p-1">
+          <Link href="/" aria-label="PetPicks4You home" className="-ml-1 rounded-full p-1">
             <Logo />
           </Link>
 

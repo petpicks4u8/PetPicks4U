@@ -5,7 +5,7 @@ import { Container, Eyebrow } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Meet the Pets",
-  description: "The PetPicks4U cast — tap a pet to see every product they’ve reviewed.",
+  description: "The PetPicks4You cast — tap a pet to see every product they’ve reviewed.",
   alternates: { canonical: "/pets" },
 };
 

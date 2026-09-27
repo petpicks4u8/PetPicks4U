@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 /*
- * PetPicks4U design tokens
+ * PetPicks4You design tokens
  * Warm cream background, near-black ink and a bright orange accent, matching
- * the PetPicks4U logo. Buttons are black pills; orange is for highlights.
+ * the PetPicks4You logo. Buttons are black pills; orange is for highlights.
  */
 @theme {
   --color-paper: #fcf8f2;

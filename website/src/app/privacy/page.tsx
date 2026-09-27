@@ -3,7 +3,7 @@ import { ProsePage } from "@/components/ProsePage";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "What PetPicks4U collects (very little) and why.",
+  description: "What PetPicks4You collects (very little) and why.",
   alternates: { canonical: "/privacy" },
 };
 

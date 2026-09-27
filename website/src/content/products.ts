@@ -111,4 +111,56 @@ export const products: Product[] = [
     // Draft: flip to true when video #002 is posted
     published: false,
   },
+  {
+    id: "P012",
+    slug: "bird-bath",
+    name: "Colorday Large Bird Bath for Cage",
+    shortName: "Bird Bath",
+    brand: "Colorday",
+    description:
+      "A clear bird bath that hangs on the open cage door, giving your bird a dedicated splash spot for bath time.",
+    petId: "mango",
+    category: "grooming",
+    tags: ["Bath Time", "Cage Accessory"],
+    image: {
+      // Keyframe from video #005 (Higgsfield job e8b24280), made from the owner's listing screenshots
+      src: `${HF}/hf_20260927_122705_e8b24280-d265-400f-b51a-849e4bb855e9.png`,
+      alt: "Mango the Sun Conure peeking into a clear bird bath hanging on his cage door",
+      width: 1536,
+      height: 2752,
+    },
+    galleryImages: [
+      {
+        src: `${HF}/hf_20260927_122706_e6a051de-8356-48d4-9623-302f48993342.png`,
+        alt: "Mango fluffed up after his bath, perched next to the clear bird bath",
+        width: 1536,
+        height: 2752,
+      },
+    ],
+    amazonUrl: link("P012"),
+    featured: true,
+    trending: true,
+    badge: "Mango’s Favorite",
+    shortVerdict: "Morning routine. Step one: the dip.",
+    verdict: "Step one… the dip. Clean. Fluffy. Ready for the day.",
+    benefits: [
+      "A splash spot of his very own, right at the cage door",
+      "Clear walls, so you can watch the splashing",
+      "Makes bath time part of the morning routine",
+      "Big enough to actually splash in (the listing says “large”)",
+    ],
+    bestFor: ["Conures", "Birds who love a splash", "Morning routines"],
+    thingsToKnow: [
+      "Keep the water shallow and lukewarm, skip the soap, and always supervise bath time.",
+      "Some birds are nervous of a new bath. Give it time — no forcing.",
+      "Reviewers mention the hooks can be short, so check it fits your cage door.",
+      "Water will travel. Put something absorbent underneath.",
+    ],
+    keywords: ["bath", "bird bath", "shower", "splash", "water", "conure", "parrot", "cage", "colorday", "dip", "morning"],
+    dateAdded: "2026-09-27",
+    // Paste the TikTok / Reel / Short URL here once video #005 is live:
+    videoUrl: undefined,
+    socialPlatform: "tiktok",
+    published: true,
+  },
 ];

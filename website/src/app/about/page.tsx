@@ -5,7 +5,7 @@ import { ProsePage } from "@/components/ProsePage";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "PetPicks4U makes short, funny pet videos and gives you one simple place to find the products in them.",
+  description: "PetPicks4You makes short, funny pet videos and gives you one simple place to find the products in them.",
   alternates: { canonical: "/about" },
 };
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
     <ProsePage
       eyebrow="About"
       title="Pets with opinions."
-      intro="PetPicks4U makes short, funny videos starring a small cast of pets — and gives you one simple place to find the things they play with."
+      intro="PetPicks4You makes short, funny videos starring a small cast of pets — and gives you one simple place to find the things they play with."
     >
       <h2>How it works</h2>
       <p>
