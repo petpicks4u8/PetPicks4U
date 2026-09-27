@@ -50,3 +50,15 @@ Delivery notes: slow, dry, a beat of silence before punchlines; export WAV
 - Write pauses with an ellipsis or a new sentence: "Five more minutes. …Maybe six."
 - Generate 2–3 takes per line and choose the driest.
 - Keep lines under ~8 words.
+
+## Round 2 audition — friendlier tone (2026-09-27)
+Owner feedback: Desmond sounded "too off" — wants a friendlier voice. Audition line: "Ugh, I'm so bored... Wait. What's that smell? Ooh, treats! This is way better than wrecking the house."
+
+| # | Voice | Voice ID | Catalogue tags | Sample job |
+|---|---|---|---|---|
+| 1 | Benji | e6f9b893-51b1-51d3-afe9-9e0482cb7ac1 | young male | ba01d8fb-57d8-4ffd-9d36-baa5d8c8e52f |
+| 2 | Evan | f7a46aa0-183a-5327-b554-e71d8c0071bb | young male | 176aa342-609b-4b9c-bf5d-0a84723d7dfd |
+| 3 | Jake | 76fe86d8-bf3a-5ed8-ba52-f793b29cf71f | middle-aged male | 77e9a7ef-d517-486e-8f8b-49dc0cd8ecc8 |
+| 4 | Miles | e18664a7-ee4f-5273-acf8-533eb24cd366 | middle-aged male | 5777b8db-fd9d-4018-a4a7-5e283c7e0c8a |
+| 5 | Brooks | c2acff45-84b2-4974-892d-89fa2d4e5598 | middle-aged male | 12060794-4b33-46b4-b54d-a94efc550c9f |
+(Cody sample failed to generate.)

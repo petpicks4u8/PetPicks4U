@@ -101,7 +101,7 @@ See `voice-profile.md` for the exact TTS setup.
 - Max ~8 words per line, usually fewer.
 - One thought per line. Let the visual do the rest.
 - Uses "we" when he means himself ("We don't talk about the couch.").
-- Refers to the human as "the human" — never "Mom/Dad" (keeps it dry, not saccharine).
+- Refers to his owners as "Mom and Dad" / "my parents" (owner direction 2026-09-27).
 - Treats objects as rivals, colleagues, or prey.
 - Ends on understatement.
 
@@ -167,4 +167,5 @@ Avoid behaviours that current AI video renders badly: fast full-body spins, dogs
 ## 9. Change log
 - 1.0 (2026-09-26) — Initial bible.
 - 1.1 (2026-09-26) — Goldie confirmed male (he/him). Added bathroom set, "temptations" running gag, new lines.
+- 1.3 (2026-09-27) — Owner direction: tone shifted from dry/sarcastic to **friendly, casual, natural** inner voice; "Mom and Dad" allowed; voice to be re-picked for warmth.
 - 1.2 (2026-09-27) — Owner direction: fluffier "glam model" coat, happy smile, bright inviting eyes; never sad-eyed. Master image based on job 883cd933 (refinement in progress).
