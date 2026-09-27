@@ -6,7 +6,7 @@ Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet
 ## Status (2026-09-26)
 - **Video #001 "I'm Not Supposed to Do That"** (AWOOF Snuffle Mat): scripted, prompted and captioned, and **ready to generate**.
 - **Video #002 "One of You Is Kevin"** (Outward Hound Hide-A-Squirrel XL): script ready, queued next.
-- Goldie is **male (he/him)**. His voice is still to be chosen: see `characters/goldie/voice-profile.md`.
+- Goldie is **male (he/him)**. His voice is locked: **Desmond** (Higgsfield preset `563f728c-e249-5a85-97ab-8461e8c09da6`).
 
 ## Where things live
 | Folder | What's in it |
