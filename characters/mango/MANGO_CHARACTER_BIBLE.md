@@ -127,7 +127,8 @@ Say **"run Mango's voice auditions"** and I'll generate both lines in all 5 voic
 
 ```
 Engine: text2speech_v2 / elevenlabs
-Mango voice: ______ (TO BE LOCKED BY OWNER)   Voice ID: ______
+Mango voice: Dylan (LOCKED 2026-09-27 by owner)   Voice ID: b847bc29-f184-583a-8ad9-d1f1e16d1a60
+Engine for Mango: seed_audio, pitch_rate +5, speech_rate +5 (calm) to +15 (excited)
 Owner / Mom voice: Maeve 64cf4f1a-61c8-5938-9aea-83d12b2e1d13 (shared with Goldie videos — same household)
 Delivery notes: quick, clipped, confident; a small beat before the punchline; export WAV
 ```

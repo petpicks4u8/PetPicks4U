@@ -22,7 +22,7 @@ Note: when the Element is used in a prompt, Higgsfield injected only the first r
 | Element: Mango (character) | _TBD: create from the approved master image (see `characters/mango/MANGO_BASE_PROMPT.md` §5)_ |
 | Mango master image job | _TBD_ |
 | Element: Pineapple (prop, P011) | _TBD: create from the owner's reference photos, main image first_ |
-| Mango voice (preset) | _TBD: owner picks from Jasper / Dylan / Archie / Evan / Knox (see the character bible §5)_ |
+| Mango voice (preset) | **Dylan** b847bc29-f184-583a-8ad9-d1f1e16d1a60 via seed_audio, pitch +5 (LOCKED 2026-09-27) |
 | Mom voice | Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13` (shared with Goldie videos) |
 
 ### Mango V005 "Just a Dip" (Colorday bath), 2026-09-27
