@@ -20,6 +20,7 @@ Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet
 | `captions/` | Platform captions, hashtags, pinned comment and disclosure for each video |
 | `analytics/` | Performance tracker, how to diagnose results, affiliate links, content calendar |
 | `templates/` | Blank templates for new products, videos, prompts and captions |
+| `website/` | The PetPicks4U link-in-bio website (Next.js). Content lives in `website/src/content/`. See `website/README.md` |
 | `archive/` | Retired material. Nothing valuable gets deleted; it moves here |
 
 ## Workflow for each video

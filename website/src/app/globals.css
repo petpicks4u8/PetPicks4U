@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/*
+ * PetPicks4You design tokens
+ * Warm cream background, near-black ink and a bright orange accent, matching
+ * the PetPicks4You logo. Buttons are black pills; orange is for highlights.
+ */
+@theme {
+  --color-paper: #fcf8f2;
+  --color-cream: #f4eee4;
+  --color-sand: #ebe2d4;
+  --color-line: #e6ddcf;
+  --color-ink: #161412;
+  --color-ink-soft: #4a433b;
+  --color-muted: #7a7166;
+  --color-brand: #f5891f;
+  --color-brand-deep: #b45309;
+  --color-brand-tint: #fdebd3;
+
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+  --font-script: var(--font-caveat), cursive;
+
+  --radius-card: 1.75rem;
+
+  --shadow-soft: 0 1px 2px rgb(31 27 22 / 0.04), 0 8px 24px -12px rgb(31 27 22 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(31 27 22 / 0.05), 0 22px 44px -18px rgb(31 27 22 / 0.24);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-rise: rise 0.7s var(--ease-out-soft) both;
+  --animate-fade: fade 0.5s ease-out both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-brand-tint);
+}
+
+/* Bold rounded headings, matching the logo lettering */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+/* Handwritten accent for pet verdicts ("Welcome to…" style) */
+.font-script {
+  font-family: var(--font-script);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* Staggered entrance: add .rise and style="--d: 2" */
+.rise {
+  animation: var(--animate-rise);
+  animation-delay: calc(var(--d, 0) * 70ms);
+}
+
+/* Soft skeleton shimmer for images while they load */
+.img-skeleton {
+  background: linear-gradient(100deg, var(--color-cream) 30%, var(--color-sand) 50%, var(--color-cream) 70%);
+  background-size: 300% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+/* Paper grain, very subtle */
+.grain {
+  background-image: radial-gradient(rgb(31 27 22 / 0.035) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: 0.75rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
