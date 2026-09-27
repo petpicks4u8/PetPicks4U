@@ -17,3 +17,9 @@ CapCut to-do: slurp SFX 0.0s, record scratch 2.4s, gentle water/bubbly music fro
 Owner changes: natural toilet opener (no line, "*slurp slurp slurp*" caption), guilty look + "Oops… I'm not supposed to drink from here, am I?", 0.4 s crossfade into the fountain, "Mom and Dad got me this fountain, and let me tell you… it's WAY better than the toilet!", benefits line, "It's in my bio!". #ad/AI line shown the whole video. 15.0 s. Built by `assemble_v2.sh`.
 - Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7.mp4
 - Clean: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7344e3b4-1b95-4438-808d-ebe3bc6e01c3.mp4
+
+## v3 (2026-09-27) — CURRENT (26 s)
+Owner changes: guilty shot rebuilt with all four paws on the floor beside the toilet (spare profile version: job c7c0b6be); real lapping sounds generated with the video (Seedance/Kling native audio, whisper-checked: no speech); extended benefits — swirl ("keep coming back for more"), 5-layer filter ("every sip is fresh and clean"), splash wall ("no more puddles from my sloppy drinking"). Built by `assemble_v3.sh`.
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7a663eae-7ba2-4b66-a6ab-72b61d24cd68.mp4
+- Clean (voice + natural sound): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/996243fa-0625-4b84-ba1c-2ae801bc17fc.mp4
+Round cost ≈ 128 credits.

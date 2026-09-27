@@ -17,3 +17,17 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,VO v2 x4 (Benji),text2speech_v2 elevenlabs,mp3,,Benji,v2 lines,~0.6,c4af8efe 4c0fd305 10b8583b cfc60471,completed,,
 2026-09-27,V2-CUT-CAPTIONED,ffmpeg,1080x1920 15.0s,,,assemble_v2.sh,0,media 9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/9d82d30d-87d1-4d62-9bc8-ccbc3f1eb3e7.mp4
 2026-09-27,V2-CUT-CLEAN,ffmpeg,1080x1920 15.0s,,,assemble_v2.sh,0,media 7344e3b4-1b95-4438-808d-ebe3bc6e01c3,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7344e3b4-1b95-4438-808d-ebe3bc6e01c3.mp4
+2026-09-27,KF-2c guilty fixed A (3/4 front),nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie element,v3 owner: legs looked inside toilet,2,6b2697c8-cf33-4662-b27c-986c996d9e0b,completed,,
+2026-09-27,KF-2c guilty fixed B (profile),nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie element,v3,2,36a5c8ad-177d-467d-b553-dfbc759f2e00,completed,,
+2026-09-27,KF-6 clear water,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie + Fountain,v3,2,6346e0b3-75c0-417d-8432-51311f4701b5,completed,,
+2026-09-27,KF-7 drip / dry floor,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie + Fountain,v3,2,02dcc756-8fc0-4781-90f5-9a4244ba88d4,completed,,
+2026-09-27,SH01s toilet lapping + sound,seedance_2_0-720p audio,9:16 5s,KF-1,Goldie ref,v3,22.5,85c75307-866e-4a63-9f45-56711fec3d61,completed,,
+2026-09-27,SH02c guilty A,kling3_0-pro,9:16 5s silent,KF-2c A,,v3,8.75,851c99d3-fa70-49fb-a88b-b42741b740b2,completed,USED,
+2026-09-27,SH02c guilty B,kling3_0-pro,9:16 5s silent,KF-2c B,,v3,8.75,c7c0b6be-c097-46b7-a4d5-43eec87c7787,completed,SPARE,
+2026-09-27,SH03s fountain + sound,seedance_2_0-720p audio,9:16 5s,KF-3,Goldie + fountain refs,v3,22.5,99799a8b-6e2a-4cb6-a4ae-abd7d6948c80,completed,,
+2026-09-27,SH04s whirlpool + sound,kling3_0-pro sound on,9:16 5s,KF-4,,v3,12.5,25b5a9a1-25b3-4ad2-8918-52d361344379,completed,,
+2026-09-27,SH05 clear water + sound,seedance_2_0-720p audio,9:16 5s,KF-6,Goldie + fountain refs,v3,22.5,aabafdd0-9999-4458-8b22-ad1e15af95e9,completed,,
+2026-09-27,SH06 drip no puddles + sound,seedance_2_0-720p audio,9:16 5s,KF-7,Goldie + fountain refs,v3,22.5,d5906899-4a28-40be-b578-eb835a8aca55,completed,,
+2026-09-27,VO m4 m5 m6 (Benji),text2speech_v2 elevenlabs,mp3,,Benji,v3 benefit lines,~0.5,0ea6d5ce a2f8b06b f87c5450,completed,,
+2026-09-27,V3-CUT-CAPTIONED,ffmpeg,1080x1920 26.1s,,,assemble_v3.sh,0,media 7a663eae-7ba2-4b66-a6ab-72b61d24cd68,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/7a663eae-7ba2-4b66-a6ab-72b61d24cd68.mp4
+2026-09-27,V3-CUT-CLEAN,ffmpeg,1080x1920 26.1s,,,assemble_v3.sh,0,media 996243fa-0625-4b84-ba1c-2ae801bc17fc,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/996243fa-0625-4b84-ba1c-2ae801bc17fc.mp4
