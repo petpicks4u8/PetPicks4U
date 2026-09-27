@@ -19,11 +19,11 @@ export const AMAZON_AFFILIATE_URL = "AMAZON_AFFILIATE_URL";
 
 export const affiliateLinks: Record<string, string> = {
   // AWOOF Snuffle Mat — pick the LARGE listing (see products/P003-awoof-snuffle-mat.md)
-  P003: AMAZON_AFFILIATE_URL,
+  P003: "https://link.amazon/B06jt5yQn",
   // Outward Hound Hide-A-Squirrel XL (draft until video #002 is live)
   P001: AMAZON_AFFILIATE_URL,
   // Colorday Large Bird Bath for Cage (Mango, video #005)
-  P012: AMAZON_AFFILIATE_URL,
+  P012: "https://link.amazon/B0e7y78eu",
 };
 
 export function isPlaceholderUrl(url: string | undefined): boolean {
