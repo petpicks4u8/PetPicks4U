@@ -29,7 +29,7 @@
 - Colour: **very pale cream / near-white** ("English cream"). Slightly warmer cream on the ears and the top of the back; almost pure white on chest, legs feathering, and tail plume.
 - NEVER: golden, red, orange, yellow, or brown coat. NEVER pure bright-white like a Samoyed or Great Pyrenees.
 - Thick, fluffy, soft double coat. Wavy feathering on the chest ("bib"), backs of the front legs, belly, and the long plumed tail.
-- Coat is clean and brushed but natural — not show-groomed, not wet-look.
+- Coat is **extra fluffy and glamorous** — voluminous, freshly brushed, soft glossy sheen, lush feathering. He is the brand's model: always "groomed for a photoshoot," never scruffy or wet-look. (Owner direction, 2026-09-27.)
 
 **Head & face**
 - Broad, gently domed English-type skull, short-ish muzzle, soft stop.
@@ -37,7 +37,7 @@
 - **Nose:** solid black, no pink patches.
 - Lips/gums: black pigment.
 - **Ears:** medium drop ears, soft, feathered, sitting level with the eyes; a touch warmer cream than the face.
-- Friendly "smiling" mouth when relaxed; pink tongue.
+- **Signature look: the happy Golden Retriever smile** — relaxed open-mouth grin, a little pink tongue, lifted cheeks. Eyes bright, warm, sparkling and inviting with catchlights. **Never sad, droopy, or worried-looking** — even his "guilty" or "bored" expressions stay charming and bright-eyed. (Owner direction, 2026-09-27.)
 
 **Recurring visual details (the "Goldie tells")**
 - Plain **forest-green flat collar** with a small round **brass tag**. No text on the tag. (A consistent accessory is the cheapest continuity trick we have — it stays in every video.)
@@ -167,3 +167,4 @@ Avoid behaviours that current AI video renders badly: fast full-body spins, dogs
 ## 9. Change log
 - 1.0 (2026-09-26) — Initial bible.
 - 1.1 (2026-09-26) — Goldie confirmed male (he/him). Added bathroom set, "temptations" running gag, new lines.
+- 1.2 (2026-09-27) — Owner direction: fluffier "glam model" coat, happy smile, bright inviting eyes; never sad-eyed. Master image based on job 883cd933 (refinement in progress).

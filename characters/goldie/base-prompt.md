@@ -14,13 +14,13 @@ Once the Goldie reference image exists and is saved as a Higgsfield **Element** 
 ## 1. SUBJECT block — full (use for text-only generations and the master reference image)
 
 ```
-SUBJECT: Goldie, a large adult English cream Golden Retriever, about 30 kg, healthy athletic build, deep chest. Very pale cream, almost white, thick fluffy double coat with soft wavy feathering on the chest, legs, belly and a long plumed tail; ears a slightly warmer cream. Broad gently domed head, short muzzle, dark brown almond-shaped expressive eyes with dark rims, solid black nose, black lips. Friendly, intelligent, slightly mischievous expression. Wearing a plain forest-green flat collar with a small round brass tag (no text).
+SUBJECT: Goldie, a large adult English cream Golden Retriever, about 30 kg, healthy athletic build, deep chest. Very pale cream, almost white, thick fluffy double coat with soft wavy feathering on the chest, legs, belly and a long plumed tail; ears a slightly warmer cream. Broad gently domed head, short muzzle, dark brown almond-shaped expressive eyes with dark rims, solid black nose, black lips. Extra fluffy, glamorous, freshly brushed coat with a soft sheen. Classic happy Golden Retriever smile — relaxed open-mouth grin, a little pink tongue — with bright, warm, sparkling, inviting eyes; never sad or droopy. Friendly, intelligent, slightly mischievous. Wearing a plain forest-green flat collar with a small round brass tag (no text).
 ```
 
 ## 2. SUBJECT block — short (use when the Goldie reference image / Element is attached)
 
 ```
-SUBJECT: Goldie (match the reference image exactly) — large very pale cream / near-white English cream Golden Retriever, dark brown eyes, black nose, forest-green collar with round brass tag.
+SUBJECT: Goldie (match the reference image exactly) — large, extra-fluffy, glamorous very pale cream / near-white English cream Golden Retriever, bright inviting dark brown eyes, happy retriever smile, black nose, forest-green collar with round brass tag.
 ```
 
 ## 3. REALISM + NEGATIVE blocks

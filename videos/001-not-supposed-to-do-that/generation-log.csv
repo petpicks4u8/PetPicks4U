@@ -1,6 +1,9 @@
 date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits,job_id,result,approved,notes
 2026-09-27,GOLDIE-MASTER-1,nano_banana_pro (served as nano_banana_2),9:16 2K,,none,base-prompt v1,2,5b887348-53de-477f-a7e7-6e12e04d5225,completed,PENDING_OWNER,
 2026-09-27,GOLDIE-MASTER-2,nano_banana_pro (served as nano_banana_2),9:16 2K,,none,base-prompt v1,2,72d0962e-ee91-4a84-bed3-4aa055a53016,completed,PENDING_OWNER,
-2026-09-27,GOLDIE-MASTER-3,nano_banana_pro (served as nano_banana_2),9:16 2K,,none,base-prompt v1,2,883cd933-5791-4a35-bdee-8a0ca3100e0d,completed,PENDING_OWNER,
+2026-09-27,GOLDIE-MASTER-3,nano_banana_pro (served as nano_banana_2),9:16 2K,,none,base-prompt v1,2,883cd933-5791-4a35-bdee-8a0ca3100e0d,completed,OWNER_PICK (base for glam),
 2026-09-27,MAT-TEST-1 (KF-6 draft),nano_banana_pro (served as nano_banana_2),9:16 2K,,SnuffleMat element (only 1st ref image injected),mat-test v1,2,7dde0302-833e-4cf5-92d5-c3335a11191a,completed,PENDING_OWNER,
 2026-09-27,MAT-TEST-2 (KF-6 draft),nano_banana_pro (served as nano_banana_2),9:16 2K,,SnuffleMat element (only 1st ref image injected),mat-test v1,2,7c58c999-40cc-4feb-ba77-781f2dfad74a,completed,PENDING_OWNER,
+2026-09-27,GOLDIE-GLAM-A,nano_banana_pro (served as nano_banana_2),9:16 2K,,ref 883cd933 (owner pick),glam v1,2,b51a9db1-fea9-4a9f-853d-e58062e9f65e,completed,PENDING_OWNER,fluffier + smile + inviting eyes
+2026-09-27,GOLDIE-GLAM-B,nano_banana_pro (served as nano_banana_2),9:16 2K,,ref 883cd933 (owner pick),glam v1,2,4151a6ee-21f5-475b-a003-1beccd8dab57,in_progress,PENDING_OWNER,
+2026-09-27,GOLDIE-GLAM-C,nano_banana_pro (served as nano_banana_2),9:16 2K,,ref 883cd933 (owner pick),glam v1,2,357ceade-b12a-4fe3-a060-39574c6b30d9,completed,PENDING_OWNER,
