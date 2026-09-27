@@ -42,16 +42,16 @@ export function ProductCard({
       </div>
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         {pet && (
-          <p className="mb-2 text-sm font-medium text-forest">
+          <p className="mb-2 text-sm font-medium text-brand-deep">
             {pet.name}’s pick
           </p>
         )}
         <h3 className="font-display text-[1.45rem] leading-tight font-medium text-ink">{product.shortName}</h3>
         {meta && <p className="mt-1 text-sm text-muted">{meta}</p>}
-        <p className="mt-4 flex-1 font-display text-[1.05rem] leading-snug text-ink-soft italic">
+        <p className="mt-4 flex-1 font-script text-[1.45rem] leading-tight text-ink-soft">
           “{product.shortVerdict}”
         </p>
-        <span className="mt-5 inline-flex items-center gap-1.5 text-[0.95rem] font-semibold text-forest">
+        <span className="mt-5 inline-flex items-center gap-1.5 text-[0.95rem] font-semibold text-brand-deep">
           See {pet ? `${pet.name}’s` : "the"} review
           <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" aria-hidden />
         </span>

@@ -159,7 +159,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
             <div className="rise mt-3 flex flex-wrap gap-2" style={{ "--d": 1 } as React.CSSProperties}>
               {category && (
                 <Link href={`/categories/${category.slug}`}>
-                  <Tag tone="forest">{category.name}</Tag>
+                  <Tag tone="brand">{category.name}</Tag>
                 </Link>
               )}
               {product.tags.map((t) => (
@@ -167,12 +167,12 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
               ))}
             </div>
 
-            <figure className="rise relative mt-7 rounded-[1.75rem] bg-brass-tint/70 px-6 pt-6 pb-5" style={{ "--d": 2 } as React.CSSProperties}>
-              <span className="absolute -top-3 left-5 font-display text-6xl leading-none text-brass/70" aria-hidden>
+            <figure className="rise relative mt-7 rounded-[1.75rem] bg-brand-tint/70 px-6 pt-6 pb-5" style={{ "--d": 2 } as React.CSSProperties}>
+              <span className="absolute -top-3 left-5 font-display text-6xl leading-none text-brand/80" aria-hidden>
                 “
               </span>
-              <figcaption className="text-xs font-semibold tracking-[0.14em] text-[#7a5a22] uppercase">{petName}’s verdict</figcaption>
-              <blockquote className="mt-2 font-display text-[1.45rem] leading-snug text-ink italic sm:text-[1.65rem]">{product.verdict}</blockquote>
+              <figcaption className="text-xs font-semibold tracking-[0.14em] text-brand-deep uppercase">{petName}’s verdict</figcaption>
+              <blockquote className="mt-2 font-script text-[1.9rem] leading-tight text-ink sm:text-[2.2rem]">{product.verdict}</blockquote>
             </figure>
 
             <p className="rise mt-6 text-[1.05rem] leading-relaxed text-ink-soft" style={{ "--d": 3 } as React.CSSProperties}>
@@ -197,7 +197,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
                 <ul className="space-y-3">
                   {product.benefits.map((b) => (
                     <li key={b} className="flex gap-3 text-[1.02rem] text-ink-soft">
-                      <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-forest-tint text-forest">
+                      <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-brand-tint text-brand-deep">
                         <Check className="size-3.5" strokeWidth={3} aria-hidden />
                       </span>
                       {b}
@@ -209,7 +209,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
               <Section title="Best for">
                 <div className="flex flex-wrap gap-2">
                   {product.bestFor.map((b) => (
-                    <Tag key={b} tone="brass">
+                    <Tag key={b} tone="brand">
                       {b}
                     </Tag>
                   ))}

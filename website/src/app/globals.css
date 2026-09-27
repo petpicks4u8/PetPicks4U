@@ -2,25 +2,24 @@
 
 /*
  * PetPicks4U design tokens
- * Warm paper background, deep ink text, Goldie's forest-green collar as the
- * primary accent and his brass tag as the highlight.
+ * Warm cream background, near-black ink and a bright orange accent, matching
+ * the PetPicks4U logo. Buttons are black pills; orange is for highlights.
  */
 @theme {
-  --color-paper: #fbf8f3;
+  --color-paper: #fcf8f2;
   --color-cream: #f4eee4;
   --color-sand: #ebe2d4;
   --color-line: #e6ddcf;
-  --color-ink: #1f1b16;
+  --color-ink: #161412;
   --color-ink-soft: #4a433b;
   --color-muted: #7a7166;
-  --color-forest: #2f5d46;
-  --color-forest-deep: #234836;
-  --color-forest-tint: #e6eee8;
-  --color-brass: #b8893b;
-  --color-brass-tint: #f6ecd8;
+  --color-brand: #f5891f;
+  --color-brand-deep: #b45309;
+  --color-brand-tint: #fdebd3;
 
   --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-display: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+  --font-script: var(--font-caveat), cursive;
 
   --radius-card: 1.75rem;
 
@@ -72,13 +71,21 @@ body {
 }
 
 ::selection {
-  background: var(--color-brass-tint);
+  background: var(--color-brand-tint);
 }
 
+/* Bold rounded headings, matching the logo lettering */
 .font-display {
   font-family: var(--font-display);
-  font-variation-settings: "SOFT" 100, "WONK" 0;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+/* Handwritten accent for pet verdicts ("Welcome to…" style) */
+.font-script {
+  font-family: var(--font-script);
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 /* Staggered entrance: add .rise and style="--d: 2" */
@@ -109,7 +116,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-forest);
+  outline: 2px solid var(--color-brand);
   outline-offset: 3px;
   border-radius: 0.75rem;
 }

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Figtree, Fraunces } from "next/font/google";
+import { Caveat, Figtree, Nunito } from "next/font/google";
 import Script from "next/script";
 import { site } from "@/content/site";
 import { getSearchIndex, getSearchSuggestions } from "@/lib/data";
@@ -9,12 +9,8 @@ import { AttributionTracker } from "@/components/AttributionTracker";
 import "./globals.css";
 
 const figtree = Figtree({ variable: "--font-figtree", subsets: ["latin"], display: "swap" });
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  display: "swap",
-  axes: ["SOFT", "WONK", "opsz"],
-});
+const nunito = Nunito({ variable: "--font-nunito", subsets: ["latin"], display: "swap", weight: ["700", "800", "900"] });
+const caveat = Caveat({ variable: "--font-caveat", subsets: ["latin"], display: "swap", weight: ["600", "700"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -39,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#fbf8f3",
+  themeColor: "#fcf8f2",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -50,7 +46,7 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const [records, suggestions] = await Promise.all([getSearchIndex(), getSearchSuggestions()]);
   return (
-    <html lang="en" className={`${figtree.variable} ${fraunces.variable}`}>
+    <html lang="en" className={`${figtree.variable} ${nunito.variable} ${caveat.variable}`}>
       <body className="flex min-h-dvh flex-col">
         <a
           href="#main"

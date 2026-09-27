@@ -53,7 +53,7 @@ export default async function CategoryPage({ params }: PageProps<"/categories/[s
               href={`/categories/${c.slug}`}
               aria-current={c.slug === category.slug ? "page" : undefined}
               className={`inline-flex min-h-11 shrink-0 items-center rounded-full px-5 font-medium ring-1 ${
-                c.slug === category.slug ? "bg-forest text-paper ring-forest" : "bg-white text-ink ring-line/60"
+                c.slug === category.slug ? "bg-ink text-paper ring-ink" : "bg-white text-ink ring-line/60"
               }`}
             >
               {c.name}

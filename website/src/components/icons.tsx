@@ -34,19 +34,23 @@ export const platformMeta: Record<SocialPlatform, { label: string; Icon: (p: Ico
   youtube: { label: "YouTube", Icon: YouTubeIcon },
 };
 
+/**
+ * Wordmark matching the owner's logo: bold rounded lowercase, orange "4",
+ * with a small orange paw. (No Amazon-style smile arrow — Amazon's
+ * trademark rules don't allow look-alikes.)
+ */
 export function Logo({ className = "" }: IconProps) {
   return (
-    <span className={`inline-flex items-center gap-2 ${className}`}>
-      <span className="grid size-8 place-items-center rounded-full bg-forest text-paper shadow-soft">
-        <svg viewBox="0 0 24 24" className="size-4.5" fill="currentColor" aria-hidden>
-          <circle cx="7" cy="8" r="2.2" />
-          <circle cx="12" cy="6" r="2.2" />
-          <circle cx="17" cy="8" r="2.2" />
-          <path d="M12 11c-3 0-6 3.4-6 6 0 1.7 1.3 2.5 2.8 2.5 1.2 0 2-.6 3.2-.6s2 .6 3.2.6c1.5 0 2.8-.8 2.8-2.5 0-2.6-3-6-6-6Z" />
-        </svg>
-      </span>
-      <span className="font-display text-[1.35rem] font-semibold tracking-tight text-ink">
-        PetPicks<span className="text-brass">4U</span>
+    <span className={`inline-flex items-center gap-1.5 ${className}`}>
+      <svg viewBox="0 0 24 24" className="size-7 text-brand" fill="currentColor" aria-hidden>
+        <ellipse cx="6.2" cy="9.2" rx="2.1" ry="2.6" transform="rotate(-18 6.2 9.2)" />
+        <ellipse cx="10" cy="5.6" rx="2.1" ry="2.7" transform="rotate(-6 10 5.6)" />
+        <ellipse cx="14.6" cy="5.6" rx="2.1" ry="2.7" transform="rotate(8 14.6 5.6)" />
+        <ellipse cx="18.3" cy="9.4" rx="2.1" ry="2.6" transform="rotate(20 18.3 9.4)" />
+        <path d="M12.3 10.6c-3.1 0-6.3 3.5-6.3 6.3 0 1.8 1.4 2.7 3 2.7 1.3 0 2.1-.7 3.3-.7s2 .7 3.3.7c1.6 0 3-.9 3-2.7 0-2.8-3.2-6.3-6.3-6.3Z" />
+      </svg>
+      <span className="font-display text-[1.6rem] leading-none font-black tracking-[-0.04em] text-ink">
+        petpicks<span className="text-brand">4</span>u
       </span>
     </span>
   );

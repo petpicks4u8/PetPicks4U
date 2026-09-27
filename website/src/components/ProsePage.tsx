@@ -15,7 +15,7 @@ export function ProsePage({ eyebrow, title, intro, children }: { eyebrow: string
             {intro}
           </p>
         )}
-        <div className="rise mt-10 space-y-5 text-[1.02rem] leading-relaxed text-ink-soft [&_a]:font-medium [&_a]:text-forest [&_a]:underline [&_a]:underline-offset-2 [&_h2]:pt-4 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:font-medium [&_h2]:text-ink [&_li]:ml-5 [&_li]:list-disc [&_strong]:text-ink" style={{ "--d": 3 } as React.CSSProperties}>
+        <div className="rise mt-10 space-y-5 text-[1.02rem] leading-relaxed text-ink-soft [&_a]:font-medium [&_a]:text-brand-deep [&_a]:underline [&_a]:underline-offset-2 [&_h2]:pt-4 [&_h2]:font-display [&_h2]:text-2xl [&_h2]:font-medium [&_h2]:text-ink [&_li]:ml-5 [&_li]:list-disc [&_strong]:text-ink" style={{ "--d": 3 } as React.CSSProperties}>
           {children}
         </div>
       </div>

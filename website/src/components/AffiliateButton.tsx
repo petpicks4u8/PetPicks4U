@@ -53,7 +53,7 @@ export function AffiliateButton({
       target="_blank"
       rel="sponsored noopener"
       onClick={() => track("affiliate_click", { ...context, destination: url, placement })}
-      className={`${base} bg-forest text-paper shadow-soft hover:bg-forest-deep hover:shadow-lift active:scale-[0.97] ${className}`}
+      className={`${base} bg-ink text-paper shadow-soft hover:bg-black hover:shadow-lift active:scale-[0.97] ${className}`}
     >
       View on Amazon
       <ArrowUpRight className="size-5" aria-hidden />

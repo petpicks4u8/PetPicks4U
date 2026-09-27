@@ -27,7 +27,7 @@ export function PetCard({ pet, pickCount, priority = false, index = 0 }: { pet: 
           <p className="text-sm font-medium text-muted">{pet.breed}</p>
           <h3 className="font-display text-4xl leading-none font-medium text-ink sm:text-5xl">{pet.name}</h3>
           <p className="mt-3 text-[0.98rem] leading-snug text-ink-soft">{pet.shortBio}</p>
-          <span className="mt-5 inline-flex min-h-12 w-full whitespace-nowrap sm:w-fit justify-center items-center gap-2 rounded-full bg-forest px-5 text-[0.95rem] font-semibold text-paper shadow-soft transition-colors group-hover:bg-forest-deep">
+          <span className="mt-5 inline-flex min-h-12 w-full whitespace-nowrap sm:w-fit justify-center items-center gap-2 rounded-full bg-ink px-5 text-[0.95rem] font-semibold text-paper shadow-soft transition-colors group-hover:bg-black">
             Shop {pet.name}’s Picks
             <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5" aria-hidden />
           </span>

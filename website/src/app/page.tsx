@@ -56,12 +56,12 @@ export default async function HomePage() {
         <div className="grain pointer-events-none absolute inset-0 opacity-60" aria-hidden />
         <Container className="relative grid items-center gap-10 pt-10 pb-8 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:pt-20 lg:pb-16">
           <div>
-            <Eyebrow className="rise">Straight from the videos</Eyebrow>
+            <Eyebrow className="rise">Handpicked finds for happy pets</Eyebrow>
             <h1
               className="rise mt-4 font-display text-[2.7rem] leading-[1.02] font-medium text-ink sm:text-6xl lg:text-7xl"
               style={{ "--d": 1 } as React.CSSProperties}
             >
-              The internet’s favorite pets pick their <em className="text-forest italic">favorite things.</em>
+              The internet’s favorite pets pick their <em className="font-script text-[1.12em] leading-none font-bold text-brand-deep not-italic">favorite things.</em>
             </h1>
             <p
               className="rise mt-5 max-w-md text-[1.08rem] leading-relaxed text-ink-soft sm:text-lg"
@@ -97,8 +97,8 @@ export default async function HomePage() {
                   href={`/products/${starPick.slug}`}
                   className="absolute -bottom-6 -left-10 max-w-64 rounded-3xl bg-white/95 p-4 shadow-lift ring-1 ring-line/60 backdrop-blur transition-transform hover:-translate-y-0.5"
                 >
-                  <p className="text-xs font-semibold tracking-wide text-brass uppercase">{star.name}’s verdict</p>
-                  <p className="mt-1 font-display text-[1.02rem] leading-snug text-ink italic">“{starPick.shortVerdict}”</p>
+                  <p className="text-xs font-semibold tracking-wide text-brand uppercase">{star.name}’s verdict</p>
+                  <p className="mt-1 font-script text-[1.4rem] leading-tight text-ink">“{starPick.shortVerdict}”</p>
                 </Link>
               )}
             </div>
@@ -128,9 +128,9 @@ export default async function HomePage() {
       {/* SEEN IT IN A VIDEO? */}
       <section aria-labelledby="find" className="scroll-mt-20">
         <Container className="pt-16 sm:pt-24">
-          <div className="rounded-[2rem] bg-forest px-5 py-9 text-paper sm:px-12 sm:py-14">
+          <div className="rounded-[2rem] bg-ink px-5 py-9 text-paper sm:px-12 sm:py-14">
             <div className="mx-auto max-w-xl">
-              <p className="text-[0.78rem] font-semibold tracking-[0.16em] text-brass-tint/80 uppercase">Seen something in one of our videos?</p>
+              <p className="text-[0.78rem] font-semibold tracking-[0.16em] text-brand uppercase">Seen something in one of our videos?</p>
               <h2 id="find" className="mt-2 font-display text-[2rem] leading-tight font-medium sm:text-[2.6rem]">
                 Find the product.
               </h2>
@@ -150,7 +150,7 @@ export default async function HomePage() {
               eyebrow="Trending picks"
               title="Starring in our videos right now"
               action={
-                <Link href="/products" className="hidden min-h-11 items-center gap-1.5 font-semibold text-forest sm:inline-flex">
+                <Link href="/products" className="hidden min-h-11 items-center gap-1.5 font-semibold text-brand-deep sm:inline-flex">
                   All picks <ArrowRight className="size-4" aria-hidden />
                 </Link>
               }
@@ -221,7 +221,7 @@ export default async function HomePage() {
                 { Icon: HeartHandshake, title: "Clear disclosure", body: "Links may earn us a small commission. Prices never change for you." },
               ].map(({ Icon, title, body }) => (
                 <li key={title} className="rounded-3xl bg-white/70 p-5 ring-1 ring-line/70">
-                  <Icon className="size-5 text-forest" aria-hidden />
+                  <Icon className="size-5 text-brand-deep" aria-hidden />
                   <p className="mt-3 font-semibold text-ink">{title}</p>
                   <p className="mt-1 text-sm leading-relaxed text-muted">{body}</p>
                 </li>

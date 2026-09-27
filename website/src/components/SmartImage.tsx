@@ -19,9 +19,9 @@ export function SmartImage({ fallbackLabel, className = "", alt, ...props }: Pro
       <div
         role="img"
         aria-label={alt}
-        className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-cream via-paper to-brass-tint text-muted"
+        className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-cream via-paper to-brand-tint text-muted"
       >
-        <PawPrint className="size-8 text-brass" strokeWidth={1.5} aria-hidden />
+        <PawPrint className="size-8 text-brand" strokeWidth={1.5} aria-hidden />
         {fallbackLabel && <span className="font-display text-lg text-ink-soft">{fallbackLabel}</span>}
       </div>
     );

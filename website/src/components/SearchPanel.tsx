@@ -50,7 +50,7 @@ export function SearchPanel({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={placeholder}
           aria-controls={listId}
-          className="h-14 w-full rounded-full bg-white pr-12 pl-13 text-[1.05rem] text-ink shadow-soft ring-1 ring-line outline-none transition-shadow placeholder:text-muted/80 focus:ring-2 focus:ring-forest/50 focus-visible:outline-none [&::-webkit-search-cancel-button]:hidden"
+          className="h-14 w-full rounded-full bg-white pr-12 pl-13 text-[1.05rem] text-ink shadow-soft ring-1 ring-line outline-none transition-shadow placeholder:text-muted/80 focus:ring-2 focus:ring-brand/60 focus-visible:outline-none [&::-webkit-search-cancel-button]:hidden"
         />
         {query && (
           <button
@@ -109,7 +109,7 @@ export function SearchPanel({
           <div className="animate-fade rounded-3xl bg-white/70 px-6 py-7 text-center ring-1 ring-line/70">
             <p className="font-display text-xl text-ink">No match for “{deferred.trim()}” yet.</p>
             <p className="mt-1 text-sm text-muted">Try the pet’s name, or what the product does (“mat”, “puzzle”, “ball”).</p>
-            <Link href="/products" onClick={onNavigate} className="mt-4 inline-flex min-h-11 items-center gap-1.5 font-semibold text-forest">
+            <Link href="/products" onClick={onNavigate} className="mt-4 inline-flex min-h-11 items-center gap-1.5 font-semibold text-brand-deep">
               Browse every pick <ArrowRight className="size-4" aria-hidden />
             </Link>
           </div>

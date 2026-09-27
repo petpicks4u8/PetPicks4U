@@ -32,16 +32,16 @@ export async function renderOgCard({
   const image = await loadPhoto(photo);
   return new ImageResponse(
     (
-      <div style={{ width: "100%", height: "100%", display: "flex", background: "#fbf8f3", color: "#1f1b16" }}>
+      <div style={{ width: "100%", height: "100%", display: "flex", background: "#fcf8f2", color: "#161412" }}>
         <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "64px 64px 56px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <div style={{ width: 44, height: 44, borderRadius: 22, background: "#2f5d46", display: "flex" }} />
+            <div style={{ width: 44, height: 44, borderRadius: 22, background: "#f5891f", display: "flex" }} />
             <div style={{ fontSize: 34, fontWeight: 700, display: "flex" }}>
-              PetPicks<span style={{ color: "#b8893b" }}>4U</span>
+              petpicks<span style={{ color: "#f5891f" }}>4</span>u
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ fontSize: 24, letterSpacing: 4, textTransform: "uppercase", color: "#b8893b", fontWeight: 700 }}>{eyebrow}</div>
+            <div style={{ fontSize: 24, letterSpacing: 4, textTransform: "uppercase", color: "#f5891f", fontWeight: 700 }}>{eyebrow}</div>
             <div style={{ fontSize: title.length > 28 ? 60 : 76, fontWeight: 700, lineHeight: 1.05, marginTop: 14, letterSpacing: -1.5 }}>{title}</div>
             {quote && (
               <div style={{ fontSize: 32, lineHeight: 1.3, marginTop: 24, color: "#4a433b", fontStyle: "italic", maxWidth: 640 }}>{`“${quote}”`}</div>
@@ -55,7 +55,7 @@ export async function renderOgCard({
             <img src={image} alt="" width={374} height={574} style={{ width: 374, height: 574, objectFit: "cover", borderRadius: 40 }} />
           </div>
         ) : (
-          <div style={{ width: 300, height: "100%", display: "flex", background: "#2f5d46" }} />
+          <div style={{ width: 300, height: "100%", display: "flex", background: "#f5891f" }} />
         )}
       </div>
     ),
