@@ -13,3 +13,5 @@
 
 Rule: these images are the visual source of truth for the product. Prompts describe the mat only generically and defer to the references — no invented features.
 Note: when the Element is used in a prompt, Higgsfield injected only the first reference image. For keyframes with Goldie, pass the best 2–3 mat images directly as image references as well.
+
+| Element: Fountain (prop, V003) | da51e694-62b2-43cc-9da6-7181e0ffeacd — PETLIBRO Capsule 8 L, from owner screenshots (media b41a2217…, 34a8fa31…, 5cfdd4a8…; scale ref b455bf81-61d4-4227-a6e3-ece36505c19e) |
