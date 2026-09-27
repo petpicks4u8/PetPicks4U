@@ -1,4 +1,4 @@
-# Captions: Video #005 "Who Invited the Pineapple?" (Mango #1)
+# Captions: Video #006 "Who Invited the Pineapple?" (Mango #1)
 
 > **Required on every platform:**
 > 1. **Affiliate disclosure:** #ad in the caption and on the video, plus "As an Amazon Associate I earn from qualifying purchases." on the bio/link page.

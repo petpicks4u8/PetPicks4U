@@ -1,4 +1,4 @@
-# Higgsfield Prompts: Video #005 "Who Invited the Pineapple?" (Mango #1)
+# Higgsfield Prompts: Video #006 "Who Invited the Pineapple?" (Mango #1)
 
 Ready to paste. **Nothing has been generated and no credits have been spent.**
 Credit costs are from the live checks on 2026-09-26 (see `002-one-of-you-is-kevin.md`) and should be re-checked before running.
@@ -182,4 +182,4 @@ AVOID: wings opening, extra wings, flying, feet leaving the perch, extra feet, f
 - [ ] The pineapple matches the owner's reference photos (shape, colours, size about equal to Mango's body) and there's only ever one
 - [ ] No floating strips, no strips multiplying, no background jumps
 - [ ] The trimmed usable section is at least as long as the "Used" length in the shot list
-- [ ] Save as `videos/005-who-invited-the-pineapple/clips/SH0X_v#.mp4` and log it in `generation-log.csv`
+- [ ] Save as `videos/006-who-invited-the-pineapple/clips/SH0X_v#.mp4` and log it in `generation-log.csv`

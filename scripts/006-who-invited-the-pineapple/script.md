@@ -1,4 +1,4 @@
-# Video #005 (Mango #1): "Who Invited the Pineapple?" Production script and shot list
+# Video #006 (Mango #1): "Who Invited the Pineapple?" Production script and shot list
 
 | | |
 |---|---|
@@ -130,7 +130,7 @@ Each clip is generated at 5 s, silent, and trimmed in the edit.
 | KF-G | 7 | Medium, proud beside a semi-shredded pineapple | Nano Banana Pro | image | — | Low | — |
 | SH07 | 7 | KF-G | **Kling 3.0 Pro** | 5 s | 5.0 s | Low–Med | Swap the floof for a simple head-turn toward the pineapple |
 
-Full prompts are in `higgsfield-prompts/005-who-invited-the-pineapple.md`, and the edit is in `videos/005-who-invited-the-pineapple/editing-plan.md`.
+Full prompts are in `higgsfield-prompts/006-who-invited-the-pineapple.md`, and the edit is in `videos/006-who-invited-the-pineapple/editing-plan.md`.
 
 ---
 

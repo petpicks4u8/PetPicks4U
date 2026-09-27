@@ -1,4 +1,4 @@
-# Video #005 (Mango #1): Five concepts, Planet Pleasures Pineapple (P011)
+# Video #006 (Mango #1): Five concepts, Planet Pleasures Pineapple (P011)
 
 The goal is to introduce Mango as a character (**small bird, massive confidence**) and show the product doing exactly what it's for, which is getting shredded.
 The shared constraints: 15–35 s, 9:16, a hook in the first 1–2 s, one action per clip, wings folded, feet on the perch, silent generation with VO added in the edit.

@@ -96,13 +96,17 @@ Default lighting is soft natural daylight with a warm, neutral colour temperatur
 
 Mango "speaks" as **internal-monologue voiceover**, exactly like Goldie. **His beak never lip-syncs.** A talking beak is the most uncanny thing AI bird video does. Real conures also don't talk in full sentences, so VO over real bird behaviour reads as funnier and more believable.
 
+> **Owner direction (2026-09-27, v1.1):** Mango's voice is **squeaky, chaotic and fun**, like a real conure. This replaces the earlier "not squeaky" direction.
+
 | Attribute | Direction |
 |---|---|
-| Register | **Brighter and a bit higher than Goldie's (Benji)**, but still an adult man's voice. Not squeaky, not a child. |
-| Energy | 6–7/10: alert, quick and punchy. Not shouting. |
-| Delivery | **Confident, fast and clipped.** Short sentences, and he lands the punchline with a tiny beat before it. |
-| Attitude | Self-assured, amused, a little superior, but never mean. |
-| NOT | Baby talk, squeaky cartoon parrot, pirate parrot, screeching, a generic influencer voice, or a narrator voice. |
+| Register | **High and squeaky**, the sound of a small bird with a big personality. Pitched well above Goldie (Benji) |
+| Energy | 8/10: bouncy, excitable, quick, with sudden changes of mood ("Cold cold cold— …ooh. Okay.") |
+| Delivery | Fast and punchy, with little bursts and squeals of emotion, but the words stay clear. Short lines |
+| Attitude | Confident, dramatic, delighted with himself |
+| NOT | Baby talk, pirate parrot, unintelligible screeching, or long monologues. Squeaky ≠ annoying: keep the lines short and let the visuals breathe |
+
+**How we make it:** `seed_audio` with a young male preset, **pitch_rate +5 to +8** and **speech_rate +15 to +20** (about 0.6 credits per line).
 
 ### Voice casting (your 5-minute task, the same process as Goldie)
 Goldie is **Benji** and Mom is **Maeve**, so Mango must sound clearly different from Benji. I picked these male presets from the Higgsfield catalogue but **haven't heard them**, because this environment can't play audio. Your ear decides.
@@ -258,3 +262,4 @@ See `MANGO_BASE_PROMPT.md` for the paste-ready blocks.
 
 ## 13. Change log
 - 1.0 (2026-09-27): initial bible, written for the Mango expansion.
+- 1.1 (2026-09-27): owner direction: squeaky, chaotic, fun voice (seed_audio, pitched up). First video switched to the Colorday bath (V005 "Just a Dip").

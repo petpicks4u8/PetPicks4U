@@ -8,7 +8,7 @@ Stars:
 ## Status (2026-09-26)
 - **Video #001 "Bored Goldie"** (AWOOF Snuffle Mat): **v2 rough cut done** (32 s, Benji voice). Needs music + SFX in CapCut, then owner posts. See `videos/001-not-supposed-to-do-that/editing-plan.md` §7.
 - **Video #002 "One of You Is Kevin"** (Outward Hound Hide-A-Squirrel XL): script ready, queued next.
-- **Video #005 "Who Invited the Pineapple?"** (Mango #1, Planet Pleasures Pineapple Foraging Toy): researched, safety-checked and scripted, with prompts and captions ready. Waiting on the owner for product reference photos, a live Amazon check and Mango's voice pick. See `research/2026-09-27-mango-first-product-research.md`.
+- **Video #006 "Who Invited the Pineapple?"** (Mango #1, Planet Pleasures Pineapple Foraging Toy): researched, safety-checked and scripted, with prompts and captions ready. Waiting on the owner for product reference photos, a live Amazon check and Mango's voice pick. See `research/2026-09-27-mango-first-product-research.md`.
 - Goldie is **male (he/him)**. His voice is locked: **Benji** (Higgsfield preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1`), friendly and casual.
 
 ## Where things live

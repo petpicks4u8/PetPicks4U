@@ -24,3 +24,12 @@ Note: when the Element is used in a prompt, Higgsfield injected only the first r
 | Element: Pineapple (prop, P011) | _TBD: create from the owner's reference photos, main image first_ |
 | Mango voice (preset) | _TBD: owner picks from Jasper / Dylan / Archie / Evan / Knox (see the character bible §5)_ |
 | Mom voice | Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13` (shared with Goldie videos) |
+
+### Mango V005 "Just a Dip" (Colorday bath), 2026-09-27
+| Thing | ID |
+|---|---|
+| Project "PetPicks4U — V005 Mango Bath" | 94e2c44b-301d-440d-b88b-042c13ed74db (default folder same ID) |
+| Mango master portrait (candidate) | job ceff1fb7-9410-44c8-86c4-8db81e81fe69 |
+| Colorday bath owner screenshots | 82c04915-0fbc-41a0-ab8d-cfaba30f6d9e · 8620b94e-665d-4f68-9be0-504b87341aa7 · 8fb984ce-f49c-4157-8c27-4d10b17113dd · 5be3dc1f-c0c7-4107-9ecc-d2ff4348169a · cf1f94cd-79f5-4e96-9633-109071b54a0e |
+| Owner "video" upload | 6d00a4a3-1faf-48b9-9078-d7badea3e2cb, an HLS playlist (.m3u8), not a usable video |
+Note: nano_banana_pro requests were served as nano_banana_2 on 2026-09-27.

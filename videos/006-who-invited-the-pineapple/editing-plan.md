@@ -1,4 +1,4 @@
-# Video #005 "Who Invited the Pineapple?": Editing plan, first frame and performance hypothesis
+# Video #006 "Who Invited the Pineapple?": Editing plan, first frame and performance hypothesis
 
 Editor: a rough cut in the Higgsfield sandbox (the same ffmpeg method as `videos/001-.../assemble_v3.sh`), then you add music and SFX in CapCut. Project settings: 1080×1920, 30 fps.
 

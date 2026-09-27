@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | **SELECTED: Mango's first video (V005 "Who Invited the Pineapple?")**, pending owner confirmation |
+| Status | **SELECTED: Mango's first video (V006 "Who Invited the Pineapple?")**, pending owner confirmation |
 | Character | 🦜 Mango (Sun Conure) |
 | Brand | Planet Pleasures (natural-material bird toys, made in the Philippines; brand, SNIPPET) |
 | **Listing to link** | **Medium, B00GV6ZWXC**: https://www.amazon.com/Planet-Pleasures-Pineapple-Foraging-Medium/dp/B00GV6ZWXC |
