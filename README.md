@@ -1,11 +1,14 @@
 # PetPicks4U
 
 Entertaining AI-generated pet videos first, and product discovery through Amazon affiliate links second.
-Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet paper and couch cushions. Nemesis: **Kevin**, a squirrel.
+Stars:
+- **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet paper and couch cushions. Nemesis: **Kevin**, a squirrel.
+- **Mango** (he/him), a Sun Conure. Small bird, massive confidence. Everything in the house is his. Rivals: any other fruit. *(Added 2026-09-27.)*
 
 ## Status (2026-09-26)
 - **Video #001 "Bored Goldie"** (AWOOF Snuffle Mat): **v2 rough cut done** (32 s, Benji voice). Needs music + SFX in CapCut, then owner posts. See `videos/001-not-supposed-to-do-that/editing-plan.md` §7.
 - **Video #002 "One of You Is Kevin"** (Outward Hound Hide-A-Squirrel XL): script ready, queued next.
+- **Video #005 "Who Invited the Pineapple?"** (Mango #1, Planet Pleasures Pineapple Foraging Toy): researched, safety-checked and scripted, with prompts and captions ready. Waiting on the owner for product reference photos, a live Amazon check and Mango's voice pick. See `research/2026-09-27-mango-first-product-research.md`.
 - Goldie is **male (he/him)**. His voice is locked: **Benji** (Higgsfield preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1`), friendly and casual.
 
 ## Where things live
@@ -14,6 +17,7 @@ Star: **Goldie** (he/him), an English cream Golden Retriever. Weaknesses: toilet
 | `research/` | Dated research reports, plus the winning-hooks library |
 | `products/` | `product-database.csv` (master list with status: selected, backup, watchlist or rejected), plus one card per product and reference images |
 | `characters/goldie/` | Character bible, base generation prompt, voice profile and candidates, reference images |
+| `characters/mango/` | Mango's character bible (`MANGO_CHARACTER_BIBLE.md`), base generation prompt (`MANGO_BASE_PROMPT.md`), reference images |
 | `scripts/` | Concepts and full scripts for each video |
 | `higgsfield-prompts/` | Ready-to-paste keyframe and video prompts for each video |
 | `videos/` | Editing plan, generation log and approved clips for each video |

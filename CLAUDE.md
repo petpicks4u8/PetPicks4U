@@ -4,6 +4,7 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 
 ## Always read first
 - `characters/goldie/character-bible.md` — Goldie: **male (he/him)**, extra-fluffy near-white English cream Golden Retriever, forest-green collar + brass tag, happy smile, bright inviting eyes (never sad). Friendly, casual, playful inner voice; calls owners "Mom and Dad".
+- `characters/mango/MANGO_CHARACTER_BIBLE.md` + `MANGO_BASE_PROMPT.md`: Mango, **male (he/him)** adult Sun Conure (yellow body, orange-red face and belly, green and blue wing edge, dark beak, pale eye ring). "Small bird. Massive confidence." Short, clipped, witty VO, never baby talk or screaming. Wings folded and feet on the perch in early videos, and the beak never lip-syncs. Bird-product safety screen in `research/2026-09-27-mango-first-product-research.md` §1. No Goldie + Mango crossover until both are visually consistent.
 - `higgsfield-prompts/higgsfield-ids.md` — reusable Higgsfield IDs (workspace, Goldie element, product elements).
 - `products/product-database.csv` — every product ever researched + status. Never delete rows; change status.
 - `NEW-PRODUCT-PLAYBOOK.md` — the step-by-step for a new product/video.

@@ -13,3 +13,14 @@
 
 Rule: these images are the visual source of truth for the product. Prompts describe the mat only generically and defer to the references — no invented features.
 Note: when the Element is used in a prompt, Higgsfield injected only the first reference image. For keyframes with Goldie, pass the best 2–3 mat images directly as image references as well.
+
+---
+
+## Mango (Sun Conure), added 2026-09-27. Nothing has been generated yet.
+| Thing | ID |
+|---|---|
+| Element: Mango (character) | _TBD: create from the approved master image (see `characters/mango/MANGO_BASE_PROMPT.md` §5)_ |
+| Mango master image job | _TBD_ |
+| Element: Pineapple (prop, P011) | _TBD: create from the owner's reference photos, main image first_ |
+| Mango voice (preset) | _TBD: owner picks from Jasper / Dylan / Archie / Evan / Knox (see the character bible §5)_ |
+| Mom voice | Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13` (shared with Goldie videos) |
