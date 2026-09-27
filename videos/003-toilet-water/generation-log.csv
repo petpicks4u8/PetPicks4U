@@ -1,1 +1,14 @@
 date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits,job_id,result,approved,notes
+2026-09-27,KF-1 toilet lapping,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie element,v1,2,39e26bf6-06bd-461b-87de-87b6b14958cd,completed,owner said go,
+2026-09-27,KF-2 realization,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie element,v1,2,46f77561-9e71-4e16-920f-ed4f317be7f5,completed,owner said go,
+2026-09-27,KF-3 drinking at fountain,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie + Fountain elements,v1,2,3d5a7e59-0e93-41a7-9870-48ea3caa7787,completed,owner said go,
+2026-09-27,KF-4 whirlpool close-up,nano_banana_pro (served as nano_banana_2),9:16 2K,,Fountain element + whirlpool ref 5cfdd4a8,v1,2,65d38468-c7d4-4082-b1ba-15e0f43a8886,completed,owner said go,
+2026-09-27,KF-5 smile CTA,nano_banana_pro (served as nano_banana_2),9:16 2K,,Goldie + Fountain elements,v1,2,9a7900e7-7887-43de-ba77-fd5ce75aa9e2,completed,owner said go,
+2026-09-27,SH01,kling3_0-pro,9:16 5s silent,KF-1,,v1,8.75,b302af06-321b-4a69-b00f-0247537997ad,completed,,
+2026-09-27,SH02,kling3_0-pro,9:16 5s silent,KF-2,,v1,8.75,fb6651c6-7b40-407b-83ed-3b83925e8141,completed,,
+2026-09-27,SH03,seedance_2_0-720p,9:16 5s silent,KF-3,Goldie + fountain-front refs,v1,22.5,bf1048a4-cdb8-41d4-9723-281a46435efd,completed,,
+2026-09-27,SH04,kling3_0-pro,9:16 5s silent,KF-4,,v1,8.75,31fc62c4-ea2c-42ce-8239-5e8c021a5dd5,completed,,
+2026-09-27,SH05,kling3_0-pro,9:16 5s silent,KF-5,,v1,8.75,ea9ff499-78cb-4d08-8199-f2fb0e14504b,completed,,
+2026-09-27,VO1-5 Benji,text2speech_v2 elevenlabs,mp3,,Benji,v1,~0.75,0a385338 6149d00f 38c3c5a1 4b02f6f5 469ec526,completed,,
+2026-09-27,CUT-CAPTIONED,ffmpeg (Higgsfield sandbox),1080x1920 15.0s,,,assemble_v1.sh,0,media 624ff839-d2ce-4172-9bfd-66dbae8896ee,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/624ff839-d2ce-4172-9bfd-66dbae8896ee.mp4
+2026-09-27,CUT-CLEAN,ffmpeg (Higgsfield sandbox),1080x1920 15.0s,,,assemble_v1.sh,0,media 14ba0060-984a-4418-a254-8a111567d0a1,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/14ba0060-984a-4418-a254-8a111567d0a1.mp4
