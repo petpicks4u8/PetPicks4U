@@ -74,3 +74,9 @@ Natural rewrite (`scripts/001-not-supposed-to-do-that/script-v2-natural.md`), Go
 - Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/d2d3ff8f-bd50-4d39-942a-9653e43203ac.mp4
 - Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/381ef70c-0a7f-40a9-8b53-91709b7e7fbd.mp4
 Still to add in CapCut: music bed + SFX (paper rip ~4.6s, record scratch on "GOLDIE!" 11.3s, sniffs 16–23s).
+
+## 8. v3 cut (2026-09-27) — CURRENT
+Owner changes: couch cushion visibly ripped (with fluff on Goldie's nose in the "Wasn't me" shot); snuffle-mat scenes now playful — pawing/digging and a play-bow pounce; new closing CTA line. Built by `assemble_v3.sh`, 33.4 s.
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/8bcc51d6-b869-4b40-8962-0d66da25cbb7.mp4
+- Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/0138e1eb-442c-4bff-9673-a5ad39b7c66e.mp4
+Closing line: "With this in the house, who needs the couch? Get one for your pup — it's in my bio!" (worded as Goldie's playful opinion rather than a promise that the mat stops chewing).

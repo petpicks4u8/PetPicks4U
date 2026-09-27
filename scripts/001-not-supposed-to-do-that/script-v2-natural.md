@@ -21,3 +21,9 @@ On-screen text: captions for every line; lower third "Goldie's snuffle mat — l
 
 Delivery notes: warm, relaxed, a little whiny on "Ugh", genuinely delighted on the mat lines. Not sarcastic, not deadpan.
 Honesty: still no claim that the mat *stops* chewing — it's shown as the more fun option for a bored dog.
+
+## v3 changes (2026-09-27, owner)
+- Scene 3/4: cushion now has a small rip + stuffing tufts; Goldie has fluff on his nose during "Wasn't me."
+- Scene 7: Goldie paws and digs at the mat playfully, pops up chewing a treat — line: "Ooh, there's treats hiding in here! This is way more fun than wrecking the house!"
+- Scene 8: play-bow and bouncy pounce onto the mat.
+- Scene 9 CTA: "With this in the house, who needs the couch? Get one for your pup — it's in my bio!"
