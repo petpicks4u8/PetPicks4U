@@ -30,3 +30,4 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,FINAL v2 B (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + PD SFX,audio-mix-v2.md,0,media c570f70b-a89d-4ef2-b718-cc44790a2ecb,completed,PENDING_OWNER,
 2026-09-27,FINAL v3 A (Beach),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + bath splash only,audio-mix-v2.md v3,0,media d25de6e6-4e31-48cf-a000-2c7a20135099,completed,PENDING_OWNER,SFX = bath splash only
 2026-09-27,FINAL v3 B (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + bath splash only,audio-mix-v2.md v3,0,media eb343b19-63e0-4f4e-96ad-2f00ec60cdd6,completed,PENDING_OWNER,SFX = bath splash only
+2026-09-27,FINAL v4 (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 lofi @0.25 + bath splash @2.0,audio-mix-v2.md v4,0,media f8d2573c-15e2-4647-b261-7d4ec095953d,completed,OWNER_PICK (pending final listen),music + splash quieter

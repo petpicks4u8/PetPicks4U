@@ -29,3 +29,7 @@ The music is ducked under the voice (sidechain), fades in over 0.8 s and fades o
 - Kept **only** the full bath splash at 7.4–11.6 s. Voice and music are unchanged.
 - **A, Beach (captioned):** d25de6e6-4e31-48cf-a000-2c7a20135099
 - **B, Lo-fi (captioned):** eb343b19-63e0-4f4e-96ad-2f00ec60cdd6
+
+## v4, FINAL candidate (owner picked the Lo-fi version and asked for quieter music and splash)
+- Music: Lo-fi, volume 0.35 → **0.25** (about −3 dB). Splash: 3.2 → **2.0** (about −4 dB). Voice unchanged; overall mix still normalised to −14 LUFS.
+- **Lo-fi v4 (captioned):** f8d2573c-15e2-4647-b261-7d4ec095953d
