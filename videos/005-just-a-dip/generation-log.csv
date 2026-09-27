@@ -22,3 +22,9 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,VO3,seed_audio Dylan,pitch+5 rate 0,,,vo v1,0.6,ce33a96d-de01-41db-988c-6c9bbb95bba8,completed,PENDING_OWNER,Ahhh... so refreshed.
 2026-09-27,VO4,seed_audio Dylan,pitch+5 rate+5,,,vo v1,0.6,8dc506b2-03c1-4c22-a3aa-82bca50d944b,completed,PENDING_OWNER,Clean. Fluffy. Ready for the day.
 2026-09-27,ROUGH-CUT v1,ffmpeg (Higgsfield sandbox),1080x1920 20.0s,,,assemble_v1.sh,0,media 837a1362-4154-4410-8dc1-df731638c07f (captioned) / 50d8b1c3-896a-4ccc-99d9-4387b104005f (clean),completed,PENDING_OWNER,no music/SFX yet (owner adds in CapCut)
+2026-09-27,VO1-v2,text2speech_v2 elevenlabs Dylan,mp3 + rubberband x1.12,,,vo v2 natural,~0.15,3698853e-0640-4c97-aaef-6ac6d8a054ac,completed,PENDING_OWNER,Mmm... morning routine.
+2026-09-27,VO2-v2,text2speech_v2 elevenlabs Dylan,mp3 + rubberband x1.12,,,vo v2 natural,~0.15,0c0f7613-f0b0-4a73-b4a5-13cc8644278c,completed,PENDING_OWNER,Step one... the dip.
+2026-09-27,VO3-v2,text2speech_v2 elevenlabs Dylan,mp3 + rubberband x1.12,,,vo v2 natural,~0.15,439c176e-6af7-4719-8f2e-d151e1613f57,completed,PENDING_OWNER,Ahhhh... so refreshed.
+2026-09-27,VO4-v2,text2speech_v2 elevenlabs Dylan,mp3 + rubberband x1.12,,,vo v2 natural,~0.15,4fb0a414-7ed2-4843-8feb-58c47b30ac68,completed,PENDING_OWNER,Clean. Fluffy. Ready for the day!
+2026-09-27,FINAL v2 A (Beach),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + PD SFX,audio-mix-v2.md,0,media f6abe310-7715-4a86-9d2d-ca545bfde931,completed,PENDING_OWNER,
+2026-09-27,FINAL v2 B (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + PD SFX,audio-mix-v2.md,0,media c570f70b-a89d-4ef2-b718-cc44790a2ecb,completed,PENDING_OWNER,

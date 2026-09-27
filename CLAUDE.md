@@ -12,7 +12,7 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 ## Locked assets (reuse, don't recreate)
 - Goldie Higgsfield element: `743ced41-8284-4972-8b71-01bb96ca4509` (master image job `357ceade-b12a-4fe3-a060-39574c6b30d9`).
 - Goldie voice: Benji preset `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` via `text2speech_v2` / `elevenlabs`. Owner (Mom) voice: Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13`.
-- Mango voice: Dylan preset `b847bc29-f184-583a-8ad9-d1f1e16d1a60` via `seed_audio`, pitch_rate +5 (squeaky). Mango Higgsfield element: `d311ab53-bc2c-4a99-851d-d178fc7a6042` (master job `ceff1fb7-9410-44c8-86c4-8db81e81fe69`, owner-approved).
+- Mango voice: Dylan preset `b847bc29-f184-583a-8ad9-d1f1e16d1a60` via `text2speech_v2` / `elevenlabs` (natural), then ffmpeg `rubberband=pitch=1.12:formant=preserved` for a light squeak. (seed_audio sounded robotic.) Royalty-free music/SFX: CC0/PD from Wikimedia Commons, see `videos/005-just-a-dip/audio-mix-v2.md`. Mango Higgsfield element: `d311ab53-bc2c-4a99-851d-d178fc7a6042` (master job `ceff1fb7-9410-44c8-86c4-8db81e81fe69`, owner-approved).
 - Proven pipeline: Nano Banana Pro keyframes (Goldie element + product element) → Kling 3.0 Pro for low-motion clips, Seedance 2.0 720p (start frame + Goldie/product image refs) for interaction → TTS lines → ffmpeg assembly in the Higgsfield sandbox (see `videos/001-not-supposed-to-do-that/assemble_v3.sh`) → owner adds music/SFX in CapCut.
 
 ## Rules
