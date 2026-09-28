@@ -47,3 +47,7 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V3-KF5 dry table,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x3,v3,2,582280e3-69f0-46cf-8300-16ebbc28670a,completed,PENDING_OWNER,9-12s Nobody yelled this time.
 2026-09-28,V3-KF6 very hydrated,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x1,v3,2,4774a4dc-3439-4023-aac6-493c488b9441,completed,PENDING_OWNER,12-16s
 2026-09-28,V3-KF7 loop-out,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x3,v3,2,dc6c23a9-49e8-46a1-b742-bebee14e0c50,completed,PENDING_OWNER,16-19.5s Same time tomorrow.
+2026-09-28,V3-KF2 redo A,nano_banana_pro (served as nano_banana_2),9:16 2k 1536x2752,,KF5 582280e3 as scene/scale ref + bath x3 + Mango element,v3.1 consistency,2,6b9f46da-1815-449e-a407-6f6280d8a09d,completed,PENDING_OWNER,owner: KF2 product inconsistent
+2026-09-28,V3-KF2 redo B,nano_banana_pro (served as nano_banana_2),9:16 (reported 768x1344),,same as A,v3.1 consistency,2,485cf143-6d25-4e5a-9a89-aa99cc808b1c,in_progress,,slow; reported lower resolution
+2026-09-28,V3-KF6 redo A,nano_banana_pro (served as nano_banana_2),9:16 2k 1536x2752,,KF7 dc6c23a9 as scene/scale ref + bath x2 + Mango element,v3.1 consistency,2,c5af760d-4880-4b00-94ca-1bb4682ff119,completed,PENDING_OWNER,owner: KF6 product inconsistent
+2026-09-28,V3-KF6 redo B,nano_banana_pro (served as nano_banana_2),9:16 2k 1536x2752,,same as A,v3.1 consistency,2,3df2fbca-a60e-41f6-9b4e-f32d76c6c0c0,completed,PENDING_OWNER,
