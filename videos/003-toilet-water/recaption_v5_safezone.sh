@@ -32,7 +32,6 @@ P 11.2 14.4 cyan 50 400 "whirlpool flow"
 P 14.8 19.4 cyan 50 400 "5-layer filtration"
 P 19.8 23.5 cyan 50 400 "anti-splash design"
 P 23.5 26.1 white 50 1000 "Goldie's fountain - link in bio"
-P 0    26.1 white 28 240 "#ad | Amazon affiliate link | AI-generated video"
-ffmpeg -y -v error -i "$IN" -vf "$F" -c:v libx264 -preset veryfast -crf 18 -c:a copy v003_v4_captioned.mp4
-ffprobe -v error -show_entries format=duration -of csv=p=0 v003_v4_captioned.mp4
+ffmpeg -y -v error -i "$IN" -vf "$F" -c:v libx264 -preset veryfast -crf 18 -c:a copy v003_v5_captioned.mp4
+ffprobe -v error -show_entries format=duration -of csv=p=0 v003_v5_captioned.mp4
 echo DONE

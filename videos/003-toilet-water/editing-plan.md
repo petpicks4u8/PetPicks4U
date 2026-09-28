@@ -26,3 +26,6 @@ Round cost ≈ 128 credits.
 
 ## v4 (2026-09-28) — CURRENT: same video as v3, captions moved into the app safe zone
 Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/9867b8b6-78cf-412a-a94d-b6d29f61d89e.mp4 (clean version unchanged from v3). Built by `recaption_v4_safezone.sh`.
+
+## v5 (2026-09-28) — CURRENT
+Same as v4 minus the burned-in "#ad | Amazon affiliate link | AI-generated video" line (owner will disclose in the post caption). https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/0a7420cf-dbd6-4f73-9a03-592cbff328e7.mp4
