@@ -94,6 +94,15 @@ Default lighting is soft natural daylight with a warm, neutral colour temperatur
 
 ## 5. Voice
 
+> ### ⭐ CHARACTER CANON (owner-locked 2026-09-28). This overrides everything else in this section.
+> - **Voice: Cody**, preset `1ffcdbb3-078b-5491-959d-359e3021e917`, engine `text2speech_v2` variant **`minimax`** (ElevenLabs fails for this voice). **Natural pitch, no pitch shift, no effects.**
+> - **Delivery:** a normal young guy in his early-to-mid 20s. Relaxed, dry, slightly cocky, conversational, natural pauses, understated. He comments on ridiculous things as if they're normal. Never squeaky, childish, hyper, influencer-ish or announcer-like.
+> - **Personality:** confident, slightly cocky, mischievous, naturally funny, expressive, self-aware without meme-speak, lovable but not childish. Not every line is a joke.
+> - **Speech pattern:** very short lines, deadpan understatement, often one line per scene. He never narrates what the viewer can already see, and never states product benefits.
+> - **Look:** Mango Element `d311ab53-bc2c-4a99-851d-d178fc7a6042`.
+> - Earlier notes below (squeaky voice, Dylan) are **superseded** and kept for history only.
+
+
 Mango "speaks" as **internal-monologue voiceover**, exactly like Goldie. **His beak never lip-syncs.** A talking beak is the most uncanny thing AI bird video does. Real conures also don't talk in full sentences, so VO over real bird behaviour reads as funnier and more believable.
 
 > **Owner direction (2026-09-27, v1.1):** Mango's voice is **squeaky, chaotic and fun**, like a real conure. This replaces the earlier "not squeaky" direction.

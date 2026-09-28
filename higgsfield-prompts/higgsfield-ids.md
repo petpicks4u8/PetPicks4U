@@ -22,7 +22,7 @@ Note: when the Element is used in a prompt, Higgsfield injected only the first r
 | Element: Mango (character) | **d311ab53-bc2c-4a99-851d-d178fc7a6042** (owner-approved 2026-09-27, from master job ceff1fb7) |
 | Mango master image job | ceff1fb7-9410-44c8-86c4-8db81e81fe69 |
 | Element: Pineapple (prop, P011) | _TBD: create from the owner's reference photos, main image first_ |
-| Mango voice (preset) | **Dylan** b847bc29-f184-583a-8ad9-d1f1e16d1a60 via seed_audio, pitch +5 (LOCKED 2026-09-27) |
+| Mango voice (preset) | **Cody** 1ffcdbb3-078b-5491-959d-359e3021e917 via text2speech_v2 **minimax**, no pitch shift. CANON, locked 2026-09-28 (replaces Dylan) |
 | Mom voice | Maeve `64cf4f1a-61c8-5938-9aea-83d12b2e1d13` (shared with Goldie videos) |
 
 ### Mango V005 "Just a Dip" (Colorday bath), 2026-09-27

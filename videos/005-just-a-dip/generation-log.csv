@@ -40,3 +40,10 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V3-VOICE Evan L2,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,9d493a6b-b868-4ebd-9349-bee24b77053d,completed,PENDING_OWNER,
 2026-09-28,V3-VOICE Archie L1,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,d10e648e-e4ef-4881-97cd-6b4ce51dd1e5,completed,PENDING_OWNER,
 2026-09-28,V3-VOICE Archie L2,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,d0e4da38-1990-413b-9b64-800ca9262bd2,completed,PENDING_OWNER,
+2026-09-28,V3-KF1 splash ECU,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element d311ab53 + bath 82c04915/8620b94e,v3,2,df71985a-7f9b-44bf-9df8-dcbe2423ed63,completed,PENDING_OWNER,hook 0-2s
+2026-09-28,V3-KF2 reveal on cage,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x3,v3,2,a1397f1a-96bf-465e-9736-4366201e6f0e,completed,PENDING_OWNER,silent reveal 2-5s
+2026-09-28,V3-KF3 entry,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x2,v3,2,575581ad-6501-4e55-bea9-70c51b0f0203,completed,PENDING_OWNER,5-7s
+2026-09-28,V3-KF4 dunk,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x2,v3,2,e741eda6-505f-4ebc-8f35-b33f5fc38d05,completed,PENDING_OWNER,7-9s
+2026-09-28,V3-KF5 dry table,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x3,v3,2,582280e3-69f0-46cf-8300-16ebbc28670a,completed,PENDING_OWNER,9-12s Nobody yelled this time.
+2026-09-28,V3-KF6 very hydrated,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x1,v3,2,4774a4dc-3439-4023-aac6-493c488b9441,completed,PENDING_OWNER,12-16s
+2026-09-28,V3-KF7 loop-out,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + bath x3,v3,2,dc6c23a9-49e8-46a1-b742-bebee14e0c50,completed,PENDING_OWNER,16-19.5s Same time tomorrow.
