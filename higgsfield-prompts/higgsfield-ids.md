@@ -35,3 +35,5 @@ Note: when the Element is used in a prompt, Higgsfield injected only the first r
 Note: nano_banana_pro requests were served as nano_banana_2 on 2026-09-27.
 | V005 final video (captioned) | media 837a1362-4154-4410-8dc1-df731638c07f |
 | V005 final video (clean) | media 50d8b1c3-896a-4ccc-99d9-4387b104005f |
+
+**Colorday bath prompt rule (owner, 2026-09-28):** it is a FULLY ENCLOSED clear box with a clear roof and walls on every side, hooked on the outside of the cage door, opening only into the cage. Never an open dish or bowl. Always anchor new stills to an approved still showing the bath (6b9f46da or 582280e3) plus the owner photos.

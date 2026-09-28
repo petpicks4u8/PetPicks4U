@@ -51,3 +51,10 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V3-KF2 redo B,nano_banana_pro (served as nano_banana_2),9:16 (reported 768x1344),,same as A,v3.1 consistency,2,485cf143-6d25-4e5a-9a89-aa99cc808b1c,in_progress,,slow; reported lower resolution
 2026-09-28,V3-KF6 redo A,nano_banana_pro (served as nano_banana_2),9:16 2k 1536x2752,,KF7 dc6c23a9 as scene/scale ref + bath x2 + Mango element,v3.1 consistency,2,c5af760d-4880-4b00-94ca-1bb4682ff119,completed,PENDING_OWNER,owner: KF6 product inconsistent
 2026-09-28,V3-KF6 redo B,nano_banana_pro (served as nano_banana_2),9:16 2k 1536x2752,,same as A,v3.1 consistency,2,3df2fbca-a60e-41f6-9b4e-f32d76c6c0c0,completed,PENDING_OWNER,
+2026-09-28,V3-KF2 CHOSEN,,,,,,,6b9f46da-1815-449e-a407-6f6280d8a09d,completed,APPROVED (owner),option 21
+2026-09-28,V3-KF3 redo A,nano_banana_pro (served as nano_banana_2),9:16 2k,,anchors 6b9f46da+582280e3 + bath x2 + Mango element; ENCLOSED box wording,v3.2,2,c628f458-3c41-4902-9ca4-2ffb2b300a02,completed,PENDING_OWNER,owner: old KF3 showed open dish
+2026-09-28,V3-KF3 redo B,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v3.2,2,89c575b1-fbdb-493b-aaf7-4154921a52c5,in_progress,,
+2026-09-28,V3-KF6 redo C (beside bath),nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v3.2,2,0f457777-4b0e-4d9f-a548-18bfba8726e3,completed,PENDING_OWNER,owner: previous KF6 showed open dish
+2026-09-28,V3-KF6 redo D (inside bath),nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v3.2,2,d6cf4565-f000-433f-bbcc-214b2ba6e314,completed,PENDING_OWNER,
+2026-09-28,V3-KF7 redo A,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v3.2,2,ccfa28f6-e079-4656-8b8d-e08012ffdbb7,completed,PENDING_OWNER,owner: old KF7 showed open dish
+2026-09-28,V3-KF7 redo B,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v3.2,2,a3a6cb15-a17d-47a4-b422-38361a2770ad,completed,PENDING_OWNER,
