@@ -23,7 +23,7 @@ Mango's bath is linked in our bio (#ad, Amazon affiliate: we may earn a small co
 Title: `Sun's out. Bath day. ☀️🛁 #shorts`
 Description:
 ```
-Refreshed. Relaxed. Slightly damp.
+Refreshed. Relaxed.
 
 🛁 Mango's bath (Colorday Large Bird Bath for Cage): [AFFILIATE LINK]
 #ad — As an Amazon Associate, PetPicks4U earns from qualifying purchases. AI-generated video featuring our character Mango; the bath is a real product. Keep water shallow and lukewarm and always supervise bath time.

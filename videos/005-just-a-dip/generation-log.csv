@@ -86,3 +86,6 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V4-VO CTA,text2speech_v2 minimax Cody,mp3,,,v4,0.15,f1794095-33f6-42a3-89c3-f412a43db507,completed,PENDING_OWNER,Your bird deserves a bath like mine. Link's in my bio.
 2026-09-28,V4-SH8 CTA (same spot as stare),kling3_0-pro,9:16 5s silent,KF6 0f457777,,v4,8.75,78a65ce2-f45b-4cf2-ad59-b9104d38727f,completed,PENDING_OWNER,owner: ending in same place as soaked stare; CTA stills 94ce4a4e/90f4503b unused
 2026-09-28,V4-CUT v1,ffmpeg sandbox (assemble_v4_sunny_morning.sh),1080x1920 24.5s -14 LUFS,,Cody VO + CC0 lofi + PD splash,v4,0,media f7536807-b5c3-4081-b310-ce454f623749 (captioned) / 6bd415b7-0230-4d09-bc3b-25d8142eace6 (clean),completed,PENDING_OWNER,
+2026-09-28,V4-VO1b,text2speech_v2 minimax Cody,mp3,,,v4.1,0.15,cb70d0c0-ff29-4ecb-97dc-32387022c112,completed,PENDING_OWNER,"Morning. Sun's out." (owner: "Mm" unclear)
+2026-09-28,V4-VO4b,text2speech_v2 minimax Cody,mp3,,,v4.1,0.15,a7fbe836-d579-428e-b382-c84835e49b1c,completed,PENDING_OWNER,"Ahh... Refreshed. Relaxed." (owner: remove slightly damp)
+2026-09-28,V4-CUT v2,ffmpeg sandbox,1080x1920 24.5s -14 LUFS,,,v4.1,0,media be5c3fe6-7362-4643-82db-9705afb60207 (captioned) / 82eac666-f109-482c-a537-2d6761cf5678 (clean),completed,PENDING_OWNER,+ caption "morning. sun's out."
