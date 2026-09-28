@@ -80,3 +80,8 @@ Owner changes: couch cushion visibly ripped (with fluff on Goldie's nose in the 
 - Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/8bcc51d6-b869-4b40-8962-0d66da25cbb7.mp4
 - Clean (voice only, for CapCut): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/0138e1eb-442c-4bff-9673-a5ad39b7c66e.mp4
 Closing line: "With this in the house, who needs the couch? Get one for your pup — it's in my bio!" (worded as Goldie's playful opinion rather than a promise that the mat stops chewing).
+
+## 9. v4 (2026-09-28) — CURRENT
+Same video/audio as v3; captions moved into the TikTok/Reels/Shorts safe zone and the burned-in #ad line removed (owner discloses in the post caption). Built by `recaption_v4_safezone.sh`.
+- Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/22b8a343-ac51-4681-8766-71c38bcc5d30.mp4
+- Clean (unchanged): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/0138e1eb-442c-4bff-9673-a5ad39b7c66e.mp4

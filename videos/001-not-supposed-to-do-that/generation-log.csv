@@ -53,3 +53,4 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,SH08b,seedance_2_0-720p,9:16 5s silent,KF-8b,+Goldie+mat refs,clip v3,22.5,c3984ea9-3bc4-48ce-8c60-f5e675341484,completed,PENDING_OWNER,
 2026-09-27,V3-CUT-CAPTIONED,ffmpeg,1080x1920 33.4s,,,assemble_v3.sh,0,media 8bcc51d6-b869-4b40-8962-0d66da25cbb7,uploaded,PENDING_OWNER,
 2026-09-27,V3-CUT-CLEAN,ffmpeg,1080x1920 33.4s,,,assemble_v3.sh,0,media 0138e1eb-442c-4bff-9673-a5ad39b7c66e,uploaded,PENDING_OWNER,
+2026-09-28,V4-CUT-CAPTIONED (safe-zone captions; no burned-in #ad),ffmpeg,1080x1920 33.4s,,v3 clean,recaption_v4_safezone.sh,0,media 22b8a343-ac51-4681-8766-71c38bcc5d30,uploaded,PENDING_OWNER,https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/22b8a343-ac51-4681-8766-71c38bcc5d30.mp4
