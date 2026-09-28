@@ -71,3 +71,6 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V3-SH6 very hydrated,kling3_0-pro,9:16 5s silent,KF6 0f457777,,v3,8.75,7024f43a-2f6f-4900-8a10-93d55ec04cf9,completed,PENDING_OWNER,
 2026-09-28,V3-SH7 loop-out,kling3_0-pro,9:16 5s silent,KF7 ccfa28f6,,v3,8.75,995ddd9a-35eb-40ce-be7f-2d45f60e5473,completed,PENDING_OWNER,
 2026-09-28,V3-CUT v1,ffmpeg sandbox (assemble_v3_drinking_bowl.sh),1080x1920 19.5s -14 LUFS,,Cody VO + CC0 lofi + PD water SFX,v3,0,media d0925624-2f3c-4ba1-aba9-e527a9abbf55 (captioned) / 6d13f3a1-612d-4827-b090-f3b7098ea595 (clean),completed,PENDING_OWNER,
+2026-09-28,V4-KF0 wake-up A,nano_banana_pro (served as nano_banana_2),9:16 2k,,anchors ccfa28f6 + 6b9f46da + Mango element,v4,2,7aa076a4-59ae-4c85-922f-231d2baa54f9,in_progress,PENDING_OWNER,
+2026-09-28,V4-KF0 wake-up B,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v4,2,8d8052b1-d0b8-41b9-9d63-7e168c0158a1,completed,PENDING_OWNER,
+2026-09-28,V3b-VO (rejected script),text2speech_v2 minimax Cody,mp3,,,v3b,0.45,22e52bb4/5c802a03/c3a6ee25,completed,REJECTED,owner rejected before cut
