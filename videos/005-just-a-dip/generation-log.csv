@@ -31,3 +31,12 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-27,FINAL v3 A (Beach),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + bath splash only,audio-mix-v2.md v3,0,media d25de6e6-4e31-48cf-a000-2c7a20135099,completed,PENDING_OWNER,SFX = bath splash only
 2026-09-27,FINAL v3 B (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 music + bath splash only,audio-mix-v2.md v3,0,media eb343b19-63e0-4f4e-96ad-2f00ec60cdd6,completed,PENDING_OWNER,SFX = bath splash only
 2026-09-27,FINAL v4 (Lo-fi),ffmpeg sandbox mix,1080x1920 20.0s -14 LUFS,,CC0 lofi @0.25 + bath splash @2.0,audio-mix-v2.md v4,0,media f8d2573c-15e2-4647-b261-7d4ec095953d,completed,OWNER_PICK (pending final listen),music + splash quieter
+2026-09-28,V3-VOICE Jasper L1,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,ae59ce80-79d6-4480-a963-ecd534a007c2,completed,PENDING_OWNER,I was told this was a drinking bowl.
+2026-09-28,V3-VOICE Jasper L2,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,ca8ce8e9-9af0-4966-bc75-727cf2cfb656,completed,PENDING_OWNER,Very hydrated.
+2026-09-28,V3-VOICE Cody L1+L2,text2speech_v2 elevenlabs,,,,v3 audition,0,e641fc82/fe9d0fa3/c2a8e16e/13c12a8e,failed x4,,Cody fails on elevenlabs (also failed in Goldie auditions)
+2026-09-28,V3-VOICE Cody L1,text2speech_v2 minimax,mp3 no pitch,,,v3 audition,~0.15,329f7976-818f-4204-b9db-2f6727346426,completed,PENDING_OWNER,minimax engine fallback
+2026-09-28,V3-VOICE Cody L2,text2speech_v2 minimax,mp3 no pitch,,,v3 audition,~0.15,82d80acc-f3c7-4264-bfb1-6bfd0ba40c4f,completed,PENDING_OWNER,minimax engine fallback
+2026-09-28,V3-VOICE Evan L1,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,214dceb4-ea1a-4370-a06d-eb731d383f41,completed,PENDING_OWNER,
+2026-09-28,V3-VOICE Evan L2,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,9d493a6b-b868-4ebd-9349-bee24b77053d,completed,PENDING_OWNER,
+2026-09-28,V3-VOICE Archie L1,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,d10e648e-e4ef-4881-97cd-6b4ce51dd1e5,completed,PENDING_OWNER,
+2026-09-28,V3-VOICE Archie L2,text2speech_v2 elevenlabs,mp3 no pitch,,,v3 audition,~0.15,d0e4da38-1990-413b-9b64-800ca9262bd2,completed,PENDING_OWNER,

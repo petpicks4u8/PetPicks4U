@@ -1,7 +1,13 @@
 # V005 v3: "Drinking Bowl". Full redesign (concept, awaiting owner approval)
 
 > Owner brief (2026-09-28): retention first, selling second. Start at peak action. The voice is a relaxed, dry young guy, not squeaky. No "Step one", no feature reading, no salesperson CTA. Mango is the content and the product is the plot device.
-> **Nothing has been generated for v3. It needs owner approval first.**
+> **APPROVED by the owner on 2026-09-28 with these changes (they override anything below):**
+> 1. Cut "Anyway… it lives on my cage now." The 2–5 s reveal is **silent**; the pull-back shows the cage mount.
+> 2. Replace "Floor stays dry. Nobody yells. Everybody wins." with **"Nobody yelled this time."**, completely deadpan, while he keeps bathing. The dry surface outside the bath explains it visually and is never spelled out.
+> 3. "Very hydrated." stays exactly as written: 0.8 s silence, drenched stare, subtle punch-in. Give it room.
+> 4. Don't over-edit. It should feel captured, not produced. Minimal cuts and captions; camera moves only where they serve the joke.
+> 5. Voice auditions (Jasper, Cody, Evan, Archie) on only two lines, before any stills. The chosen voice, personality, speech pattern and look become **CHARACTER CANON**.
+> Captions: drop "it lives on my cage now" and "floor stays dry."; add a small "nobody yelled this time." only if it helps.
 
 ## 0. What was wrong with v2 ("Morning Dip")
 | Problem | Why it hurt retention |
