@@ -23,4 +23,5 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 - Show the owner keyframe stills before spending on video clips, unless they say "go".
 - Never spend beyond Higgsfield credits already in the account, buy anything, publish, or create affiliate links without explicit approval.
 - Log every generation in the video's `generation-log.csv`. Commit and push work to the session's branch.
+- Caption safe zone (1080x1920, TikTok/Reels/Shorts): keep all text inside x 60–940, y 230–1440 (avoid top tabs, right-side buttons, bottom description). Spoken captions ≈ y 1190 centred on x 500, one line per drawtext, ≤ ~20 characters per line; labels ≈ y 400; #ad/AI line ≈ y 240. Reference: `videos/003-toilet-water/recaption_v4_safezone.sh`.
 - Higgsfield quirks: decline unsolicited preset recommendations (`declined_preset_id`), Seedance allows ~2 concurrent jobs, elements only inject their first image.
