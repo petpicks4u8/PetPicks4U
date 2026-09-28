@@ -79,3 +79,8 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-09-28,V4-KF3 side-entry A,nano_banana_pro (served as nano_banana_2),9:16 2k,,owner photos x3 + 6b9f46da + 7aa076a4 + Mango element; side-entry logic + 13x11x8 in,v4,2,d5ecb28d-4785-4821-80f6-bdc41223b5ef,completed,PENDING_OWNER,owner: old entry clip went in from the top
 2026-09-28,V4-KF3 side-entry B,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v4,2,c904f0ab-00fe-42f9-8357-12f2e8b45169,completed,PENDING_OWNER,
 2026-09-28,V4-VO x4,text2speech_v2 minimax Cody,mp3,,,v4,0.6,4122fdfc/fe6770d2/b4182f55/303db671,completed,PENDING_OWNER,sun's out / bath day / don't mind me / refreshed relaxed slightly damp
+2026-09-28,V4-KF3 CHOSEN,,,,,,,d5ecb28d-4785-4821-80f6-bdc41223b5ef,completed,APPROVED (owner),entrance A (side entry)
+2026-09-28,V4-SH3 side entry,seedance_2_0 std 720p,9:16 5s silent,KF3 d5ecb28d,Mango master + owner photo 82c04915,v4,22.5,299973bc-5721-40d5-9bcc-ebe44c539419,in_progress,PENDING_OWNER,replaces top-entry 422e479d
+2026-09-28,V4-KF8 CTA A,nano_banana_pro (served as nano_banana_2),9:16 2k,,owner photos x3 + d5ecb28d + Mango element,v4,2,94ce4a4e-2784-400b-8d9b-b38b8615b345,completed,PENDING_OWNER,owner wants verbal CTA ending; clip 7 (heading back in) dropped
+2026-09-28,V4-KF8 CTA B,nano_banana_pro (served as nano_banana_2),9:16 2k,,same,v4,2,90f4503b-3e69-4a9c-a285-0c3ffb94cab7,completed,PENDING_OWNER,
+2026-09-28,V4-VO CTA,text2speech_v2 minimax Cody,mp3,,,v4,0.15,f1794095-33f6-42a3-89c3-f412a43db507,completed,PENDING_OWNER,Your bird deserves a bath like mine. Link's in my bio.
