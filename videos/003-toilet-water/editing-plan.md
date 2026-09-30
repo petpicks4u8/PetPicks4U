@@ -29,3 +29,7 @@ Captioned: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBs
 
 ## v5 (2026-09-28) — CURRENT
 Same as v4 minus the burned-in "#ad | Amazon affiliate link | AI-generated video" line (owner will disclose in the post caption). https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/0a7420cf-dbd6-4f73-9a03-592cbff328e7.mp4
+
+## Instagram versions (2026-09-30)
+- Reels: use the 9:16 v5 as-is (1080x1920).
+- Feed post 4:5 (1080x1350, centre crop y 285–1635 — all captions stay inside): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsvAEVHlwuHHX05USDFI35FBsA/fdb1fef9-b333-4a34-84ab-a26bdebf818e.mp4
