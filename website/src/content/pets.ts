@@ -36,7 +36,7 @@ export const pets: Pet[] = [
     },
     personality: ["Friendly", "Curious", "Slightly spoiled", "Food-motivated", "Enrichment nerd"],
     socialLinks: [],
-    featuredProducts: ["P003"],
+    featuredProducts: ["P011", "P003"],
     accent: "#F3EADB",
     published: true,
     order: 1,

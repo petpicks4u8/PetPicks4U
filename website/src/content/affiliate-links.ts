@@ -22,6 +22,8 @@ export const affiliateLinks: Record<string, string> = {
   P003: "https://link.amazon/B06jt5yQn",
   // Outward Hound Hide-A-Squirrel XL (draft until video #002 is live)
   P001: AMAZON_AFFILIATE_URL,
+  // PETLIBRO Capsule 2.1 gal Anti-Splash Dog Fountain (Goldie, video #003) — paste SiteStripe link
+  P011: AMAZON_AFFILIATE_URL,
   // Colorday Large Bird Bath for Cage (Mango, video #005)
   P012: "https://link.amazon/B0e7y78eu",
 };

@@ -27,4 +27,10 @@ export const shortLinks: ShortLink[] = [
     utm: { source: "tiktok", medium: "social", campaign: "video", content: "v005-morning-dip" },
     note: "Video #005 — Mango's Morning Dip (bird bath)",
   },
+  {
+    code: "v003",
+    target: "/products/water-fountain",
+    utm: { source: "tiktok", medium: "social", campaign: "video", content: "v003-fancy-bathroom-water" },
+    note: "Video #003 — Fancy Bathroom Water (fountain)",
+  },
 ];

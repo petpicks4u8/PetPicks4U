@@ -163,4 +163,62 @@ export const products: Product[] = [
     socialPlatform: "tiktok",
     published: true,
   },
+  {
+    id: "P011",
+    slug: "water-fountain",
+    name: "PETLIBRO Capsule Dog Water Fountain (2.1 gal, Anti-Splash)",
+    shortName: "Water Fountain",
+    brand: "PETLIBRO",
+    description:
+      "A 2.1-gallon (8 L) water fountain made for large dogs, with an anti-splash design, 5-layer filtration and a gentle whirlpool flow in the drinking plate.",
+    petId: "goldie",
+    category: "feeding",
+    tags: ["Hydration", "Large Dogs"],
+    image: {
+      // Keyframe from video #003 (Higgsfield job 3d5a7e59), fountain matched to the owner's listing screenshots
+      src: `${HF}/hf_20260927_153502_3d5a7e59-0e93-41a7-9870-48ea3caa7787.png`,
+      alt: "Goldie happily drinking from a white PETLIBRO water fountain on a kitchen floor",
+      width: 1536,
+      height: 2752,
+    },
+    galleryImages: [
+      {
+        src: `${HF}/hf_20260927_153502_65d38468-c7d4-4082-b1ba-15e0f43a8886.png`,
+        alt: "Close-up of the fountain's drinking plate with water swirling into a whirlpool",
+        width: 1536,
+        height: 2752,
+      },
+      {
+        src: `${HF}/hf_20260927_153502_9a7900e7-7887-43de-ba77-fd5ce75aa9e2.png`,
+        alt: "Goldie smiling next to his water fountain",
+        width: 1536,
+        height: 2752,
+      },
+    ],
+    amazonUrl: link("P011"),
+    featured: true,
+    trending: true,
+    badge: "Just Posted",
+    shortVerdict: "Wait… Mom and Dad SIT there?! Toilet’s all yours.",
+    verdict: "MY water swirls. I keep coming back for more. Fountain’s mine — toilet’s all yours.",
+    benefits: [
+      "Whirlpool flow — Goldie finds the swirl hard to ignore",
+      "5-layer filtration (per the listing) catches fur and crumbs",
+      "Anti-splash design, so fewer puddles around the bowl",
+      "Big 2.1-gallon tank sized for large dogs",
+    ],
+    bestFor: ["Large dogs", "Messy drinkers", "Toilet-water enthusiasts"],
+    thingsToKnow: [
+      "Filters need replacing regularly and are sold separately — it isn’t maintenance-free.",
+      "Hand-wash only. Don’t put it in the dishwasher.",
+      "It’s plastic and needs a power outlet nearby.",
+      "A fountain is a nicer water bowl, not a health fix. Ask your vet if your dog isn’t drinking enough.",
+    ],
+    keywords: ["fountain", "water", "drink", "bowl", "toilet", "petlibro", "whirlpool", "filter", "splash", "hydration", "fancy bathroom water"],
+    dateAdded: "2026-09-30",
+    // Paste the TikTok URL of video #003 here:
+    videoUrl: undefined,
+    socialPlatform: "tiktok",
+    published: true,
+  },
 ];
