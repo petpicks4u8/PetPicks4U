@@ -7,6 +7,7 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 - `higgsfield-prompts/higgsfield-ids.md` — reusable Higgsfield IDs (workspace, Goldie element, product elements).
 - `products/product-database.csv` — every product ever researched + status. Never delete rows; change status.
 - `NEW-PRODUCT-PLAYBOOK.md` — the step-by-step for a new product/video.
+- `AD-MASTER-SYSTEM.md` — **when the owner pastes an Amazon link, that link IS the command**: run the full research → concept → script → prompts → QC workflow in that file (with its house adaptations: Amazon is blocked here, so say so and ask for screenshots/ASIN; stop points still apply).
 
 ## Locked assets (reuse, don't recreate)
 - Goldie Higgsfield element: `743ced41-8284-4972-8b71-01bb96ca4509` (master image job `357ceade-b12a-4fe3-a060-39574c6b30d9`).
