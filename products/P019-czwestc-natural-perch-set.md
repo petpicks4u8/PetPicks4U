@@ -42,13 +42,18 @@
 - **Length:** each piece is short, about 6.5 in, so these are **extra spots around the cage**, not the main perch. Petco suggests a main perch of at least 9 in for a sun conure.
 - **Listing says "for macaws":** misleading. These pieces are far too small for a macaw. We say nothing about macaws.
 
-## Claims we must NOT repeat (they come from the listing)
+## Claims: owner direction 2026-10-01
 
-- "Health & safety: no insects, prevent foot disease"
-- "Grinding beak and claw: trim extra nails"
-- "Makes the bird stand more stable"
+The owner confirmed the foot-health and nail benefits and wants them listed in the video. We use them in the **sourced "helps" form**:
 
-Any wording like "prevents bumblefoot", "vet-approved", "non-toxic" or "trims nails".
+| Allowed (sourced) | Instead of (absolute) |
+|---|---|
+| "Different thicknesses give feet a workout" | — |
+| "Uneven bark spreads the pressure and helps prevent sore feet (bumblefoot)" | "Prevents foot disease" |
+| "Rough bark helps wear nails down naturally" | "Trims nails" |
+| "Natural wood to chew" | "Non-toxic" / "100% safe" |
+
+Still never say "for macaws", "vet-approved" or "cures".
 
 ## Things to know (honest limitations)
 
