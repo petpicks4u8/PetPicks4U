@@ -7,3 +7,12 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-10-01,KF6 claws on fork,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + sizes,v5,2,479d5b5b-81b5-4b89-a1bd-dfa45cb2ffd4,completed,PENDING_OWNER,14.5-17s
 2026-10-01,KF7 nibble,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + closeup,v5,2,3ae462ea-d8a2-4a6a-bd16-b3be17b12216,completed,PENDING_OWNER,17-19.5s
 2026-10-01,KF8 verdict/CTA indoor tree,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + sizes,v5,2,16edef75-d59c-4c02-a463-9eed90341bfd,completed,PENDING_OWNER,19.5-25s
+2026-10-01,SH1 sad push-in,kling3_0-pro,9:16 5s silent,KF1 5691d917,,v5,8.75,2adcb7c5-6f6e-4b3b-8e17-4b7cffd1cbf1,completed,PENDING_OWNER,0-3s
+2026-10-01,SH2 feet on dowel,kling3_0-pro,9:16 5s silent,KF2 96bc3b9a,,v5,8.75,8ff02b29-f1ee-4edc-ac53-5a6151e45bdb,completed,PENDING_OWNER,3-6.5s
+2026-10-01,SH3 install + head up,kling3_0-pro,9:16 5s silent,KF3 8a54f90d,,v5,8.75,f22af34e-c1d8-4432-ae96-dd687cda5e69,completed,PENDING_OWNER,6.5-8.5s
+2026-10-01,SH4 product beauty orbit,kling3_0-pro,9:16 5s silent,KF4 3bd5593e,,v5,8.75,df73e2c9-ee7f-49d5-a539-e1b0e05dc3f0,completed,PENDING_OWNER,8.5-11.5s; declined preset 24bae836
+2026-10-01,SH5 toes thick to thin,seedance_2_0 std 720p,9:16 5s silent,KF5 84ffde61,hero 1a68d26a,v5,22.5,c8827847-10d9-4cb6-a59f-d2970430a9cf,completed,PENDING_OWNER,11.5-14.5s
+2026-10-01,SH6 claws on fork,seedance_2_0 std 720p,9:16 5s silent,KF6 479d5b5b,hero 1a68d26a,v5,22.5,ffa02da2-0816-467b-9472-04659c0e1967,completed,PENDING_OWNER,14.5-17s
+2026-10-01,SH7 nibble,seedance_2_0 std 720p,9:16 5s silent,KF7 3ae462ea,hero 1a68d26a,v5,22.5,4fbb137d-9ae6-4fd6-a0ff-4e63db896847,completed,PENDING_OWNER,17-19.5s
+2026-10-01,SH8 verdict/CTA,kling3_0-pro,9:16 5s silent,KF8 16edef75,,v5,8.75,ee495e94-4f90-4dde-a371-844197752ed4,completed,PENDING_OWNER,19.5-25s; declined preset 24bae836
+2026-10-01,VO1-8,text2speech_v2 minimax Cody,mp3,,,v5 natural lines,1.2,f537d8dc/d227b26c/c465ea73/d99abaf0/7a840457/3cdcf74b/832f2a4c/26f9ee12,completed,PENDING_OWNER,8 lines per v5-25s.md
