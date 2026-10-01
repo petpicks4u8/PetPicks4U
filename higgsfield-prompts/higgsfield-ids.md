@@ -59,3 +59,5 @@ The keyframes are in `videos/007-same-stick/generation-log.csv`.
 2. Run `media_import_url` on the raw.githubusercontent URL. Alternatively, the sandbox can curl it, crop it and PUT it.
 
 Local PUT to upload.higgsfield.ai is blocked from this environment.
+| V007 final v1 (captioned) | media c03367b9-8660-419f-9f93-d5e4c886196d |
+| V007 final v1 (clean) | media 85eb26d7-7280-4f26-8619-db0c7077beb8 |

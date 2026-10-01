@@ -16,3 +16,4 @@ date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits
 2026-10-01,SH7 nibble,seedance_2_0 std 720p,9:16 5s silent,KF7 3ae462ea,hero 1a68d26a,v5,22.5,4fbb137d-9ae6-4fd6-a0ff-4e63db896847,completed,PENDING_OWNER,17-19.5s
 2026-10-01,SH8 verdict/CTA,kling3_0-pro,9:16 5s silent,KF8 16edef75,,v5,8.75,ee495e94-4f90-4dde-a371-844197752ed4,completed,PENDING_OWNER,19.5-25s; declined preset 24bae836
 2026-10-01,VO1-8,text2speech_v2 minimax Cody,mp3,,,v5 natural lines,1.2,f537d8dc/d227b26c/c465ea73/d99abaf0/7a840457/3cdcf74b/832f2a4c/26f9ee12,completed,PENDING_OWNER,8 lines per v5-25s.md
+2026-10-01,ASSEMBLY v1,ffmpeg (sandbox) assemble_v1.py,1080x1920 30fps 25.3s,,,v5,0,c03367b9-8660-419f-9f93-d5e4c886196d (captioned) / 85eb26d7-7280-4f26-8619-db0c7077beb8 (clean),completed,PENDING_OWNER,"VO atempo 1.2 + pauses trimmed to fit 25 s; music CC0 Lofi music 001 (sad slowed/muffled for shots 1-2)"
