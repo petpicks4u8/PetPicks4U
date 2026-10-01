@@ -40,3 +40,22 @@ Note: nano_banana_pro requests were served as nano_banana_2 on 2026-09-27.
 **Colorday bath logic (owner, 2026-09-28):** reproduce the product EXACTLY as in the owner photos (no added, removed or changed details) at the right proportions (listing: 13 × 11 × 8 in, SNIPPET). The bath hangs on the OUTSIDE of the cage over the open door, its open back side flush with the door opening, roof closed. The bird enters **only sideways through the cage door at bath-floor level, never from the top**.
 
 **Caption style (owner, 2026-09-28):** sentence case with proper grammar; placed in the lower-middle safe zone (about 53–71% of frame height, centred, each line drawn separately so it's centred). Never at the top over the character, and never in the bottom ~28% or behind the right-side buttons. CTA text: "Get your bird a bath like mine! Link in bio."
+
+### Mango V007 "Same Stick" (P019 CZWESTC natural perch set), 2026-10-01
+Same Higgsfield project as V005 (94e2c44b).
+
+| Thing | ID |
+|---|---|
+| P019 product hero crop (all 8 pieces) | 1a68d26a-dd7c-4a65-b0a3-168de03421d5 |
+| P019 sizes graphic crop | dc2f3bee-1d13-45f5-9111-3833efd12a39 |
+| P019 install / hardware crop | 4bf38c68-57b9-49c0-91e6-0f8199586490 |
+| P019 bark close-up crop | b21c2615-ab04-4282-b4fa-994116aaa079 |
+| Uncropped hero screenshot | d2f58154-89c4-4707-b766-479a87666103 |
+
+The keyframes are in `videos/007-same-stick/generation-log.csv`.
+
+**Upload route that works:**
+1. Commit the file to the repo.
+2. Run `media_import_url` on the raw.githubusercontent URL. Alternatively, the sandbox can curl it, crop it and PUT it.
+
+Local PUT to upload.higgsfield.ai is blocked from this environment.

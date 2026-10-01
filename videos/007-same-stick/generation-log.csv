@@ -1,0 +1,9 @@
+date,shot_id,model,mode_resolution,start_frame,references,prompt_version,credits,job_id,result,approved,notes
+2026-10-01,KF1 sad dowel,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element d311ab53,v5,2,5691d917-ad11-4560-b6a0-f78354bc1e2a,completed,PENDING_OWNER,0-3s
+2026-10-01,KF2 feet on dowel,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element,v5,2,96bc3b9a-d63e-4e3a-92d2-4e549e966d15,completed,PENDING_OWNER,3-6.5s
+2026-10-01,KF3 install + head up,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + install crop 4bf38c68 + hero crop 1a68d26a,v5,2,8a54f90d-2910-4115-93a7-5aac7275fef5,completed,PENDING_OWNER,6.5-8.5s
+2026-10-01,KF4 product beauty,nano_banana_pro (served as nano_banana_2),9:16 2k,,hero crop 1a68d26a + sizes dc2f3bee + closeup b21c2615,v5,2,3bd5593e-e4e1-4902-b955-9cbcb1ae42bd,completed,PENDING_OWNER,8.5-11.5s
+2026-10-01,KF5 toes thick/thin,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + closeup,v5,2,84ffde61-01eb-4236-9fb1-1c8ed06b2fa2,completed,PENDING_OWNER,11.5-14.5s
+2026-10-01,KF6 claws on fork,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + sizes,v5,2,479d5b5b-81b5-4b89-a1bd-dfa45cb2ffd4,completed,PENDING_OWNER,14.5-17s
+2026-10-01,KF7 nibble,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + closeup,v5,2,3ae462ea-d8a2-4a6a-bd16-b3be17b12216,completed,PENDING_OWNER,17-19.5s
+2026-10-01,KF8 verdict/CTA indoor tree,nano_banana_pro (served as nano_banana_2),9:16 2k,,Mango element + hero crop 1a68d26a + sizes,v5,2,16edef75-d59c-4c02-a463-9eed90341bfd,completed,PENDING_OWNER,19.5-25s
