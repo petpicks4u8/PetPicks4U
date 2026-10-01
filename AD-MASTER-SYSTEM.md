@@ -35,9 +35,47 @@ These apply on top of the brief and follow `CLAUDE.md`:
 
 ---
 
+## Target markets & competitor research (owner direction, 2026-10-01)
+
+The owner brings a promising product; **Claude does the full research.** Every product gets both checks below **before** concepts are written.
+
+**Target markets:**
+- 🇺🇸 **USA**: amazon.com
+- 🇦🇪 **UAE**: amazon.ae
+- 🇸🇦 **Saudi Arabia**: amazon.sa
+- 🇰🇼 Kuwait, 🇶🇦 Qatar, 🇧🇭 Bahrain and 🇴🇲 Oman: check which Amazon store actually delivers there (e.g. amazon.ae / amazon.sa cross-border, or amazon.com international shipping), and confirm it per product. Never assume.
+
+### A · Availability check (per market)
+For the exact product (and the right size/variant), record per market:
+- Is it listed?
+- Is it sold/shipped by Amazon or by a third party?
+- Does it ship there, and roughly how fast?
+- Rating and review count on *that* store (reviews differ by store)
+- Price (research only)
+- Any voltage/plug, size or regulatory issue: e.g. US 110 V plugs vs Gulf 220–240 V with UK-style Type G plugs in the UAE, Qatar, Bahrain and Kuwait.
+
+Amazon is blocked from this environment. Use web search snippets, the brand's regional sites and distributors, then mark each cell VERIFIED / SNIPPET / UNVERIFIED. **Ask the owner to open the product on amazon.ae and amazon.sa from their phone and screenshot the price/stars/"deliver to" line** for anything unconfirmed.
+
+### B · Competitor research (per market)
+- Find **3–5 direct alternatives** (same job, same animal and size).
+- Compare them on: rating, review count, *repeated* praise/complaints, price, availability in each market, build/materials, safety notes, and how well each would show on video.
+- **Recommend the best product per market.** If a competitor beats the owner's pick, or the owner's pick isn't sold or shipped in the Gulf, say so clearly and suggest the swap (or a Gulf-market alternative) **before** making the ad.
+- Prefer one product that's available in all target markets, so one video works everywhere. If that isn't possible, name a US pick and a Gulf pick that look similar enough for the same video.
+
+### Output: add to the Product Summary
+| Market | Listed? | Sold/shipped by | Delivers? | Rating (reviews) | Price (research only) | Notes | Confidence |
+|---|---|---|---|---|---|---|---|
+
+followed by a short competitor table and a one-line verdict: **"Go with X for USA + Gulf"**, or **"Swap to Y because…"**.
+
+### Affiliate links per market
+Amazon's affiliate programmes are separate per store. A **US Associates link earns only on amazon.com**. The UAE (amazon.ae) and Saudi (amazon.sa) need their own Associates sign-ups and their own links. Keep one link per market in `analytics/affiliate-links.csv`. The website can then send each visitor to their own country's store once the Gulf links exist.
+
+---
+
 ## Phase checklist
 
-**1 · Identify:** exact name, brand, category, intended animal, price (research only), main function, key features, materials, size/dimensions, variants, how it's used, the problem it solves, what's visually interesting, limitations/requirements. Look past the title.
+**1 · Identify:** (then run *Target markets & competitor research* above)  exact name, brand, category, intended animal, price (research only), main function, key features, materials, size/dimensions, variants, how it's used, the problem it solves, what's visually interesting, limitations/requirements. Look past the title.
 
 **2 · Deep research:** listing, description, bullets, specs, manufacturer info, reviews (repeated praise *and* repeated complaints), Q&A, reliable external sources. What is it actually useful for? Why would an owner want it? What makes someone stop scrolling, or say "my pet needs that"? Never invent a feature, spec, safety claim or capability.
 
