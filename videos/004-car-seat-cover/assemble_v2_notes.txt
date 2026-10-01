@@ -1,0 +1,1 @@
+# v2 was built in the Higgsfield sandbox; see generation-log.csv (ASSEMBLY v2). Changes vs v1: hook = new shake clip c2b + 'BANNED FROM THE CAR?!' label at y400; VO1b/VO2b; all VO silence-trimmed + atempo 1.15; cuts tightened (3.2/2.4/1.9/2.8/1.4/2.6/1.6/2.4 s); delays 200 3300 5700 7600 10400 11800 14400 16000 ms.
