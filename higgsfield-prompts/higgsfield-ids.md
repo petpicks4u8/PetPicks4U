@@ -64,3 +64,5 @@ Local PUT to upload.higgsfield.ai is blocked from this environment.
 
 **P019 mounting rule (owner, 2026-10-02):** the bolt goes OUTWARD through the cage bars, and the washer and wing nut sit OUTSIDE the cage. The wooden perch extends INWARD into the cage. Never show metal hardware inside the cage or under the bird.
 **Mango tone on the natural perches (owner, 2026-10-02):** more excited and upbeat once he's on the wood. Use exclamation marks in the TTS text; the voice stays Cody.
+| V007 final v2 (captioned) | media 401e6857-b775-439f-877d-47639eebde14 |
+| V007 final v2 (clean) | media 9c0451b1-5827-459d-9a00-3b9acc449cb0 |
