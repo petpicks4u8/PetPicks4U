@@ -61,3 +61,6 @@ The keyframes are in `videos/007-same-stick/generation-log.csv`.
 Local PUT to upload.higgsfield.ai is blocked from this environment.
 | V007 final v1 (captioned) | media c03367b9-8660-419f-9f93-d5e4c886196d |
 | V007 final v1 (clean) | media 85eb26d7-7280-4f26-8619-db0c7077beb8 |
+
+**P019 mounting rule (owner, 2026-10-02):** the bolt goes OUTWARD through the cage bars, and the washer and wing nut sit OUTSIDE the cage. The wooden perch extends INWARD into the cage. Never show metal hardware inside the cage or under the bird.
+**Mango tone on the natural perches (owner, 2026-10-02):** more excited and upbeat once he's on the wood. Use exclamation marks in the TTS text; the voice stays Cody.
