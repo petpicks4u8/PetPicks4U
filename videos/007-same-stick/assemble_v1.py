@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""V007 "Same Stick" v1: 8 clips + 8 Cody (minimax) lines, about 25 s. Runs in the Higgsfield sandbox.
+"""V007 "Same Stick" (v1, v2 via env VO_4_8 / CLIPS_4_8 / OUT): 8 clips + 8 Cody (minimax) lines, about 25 s. Runs in the Higgsfield sandbox.
 
 Voice: Cody canon, natural pitch. Long pauses are trimmed to 0.22 s, then a light atempo (1.2, which keeps the pitch)
 fits the owner's 25 s limit. Shot cuts follow the voice lines.
@@ -27,6 +27,7 @@ LOFI = "https://commons.wikimedia.org/wiki/Special:FilePath/Lofi_music_001.wav"
 FONT = "/usr/share/fonts/truetype/higgsfield/Montserrat-ExtraBold.ttf"
 STARF = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 TEMPO, LEAD, GAP, TARGET = 1.2, 0.2, 0.1, 25.0
+OUT = os.environ.get("OUT", "v007_v1")
 
 extra = json.loads(os.environ.get("CLIPS_4_8", "[]"))
 CLIPS[3:] = extra
@@ -35,8 +36,10 @@ os.makedirs("w", exist_ok=True); os.chdir("w")
 # 1. downloads
 for i, c in enumerate(CLIPS, 1):
     if not os.path.exists(f"c{i}.mp4"): SH(f"curl -sfo c{i}.mp4 {CDN}{c}.mp4")
-for i, v in enumerate(VO, 1):
-    if not os.path.exists(f"vo{i}.mp3"): SH(f"curl -sfo vo{i}.mp3 {CDN}hf_20261001_171602_{v}.mp3")
+VO_NAMES = [f"hf_20261001_171602_{v}" for v in VO]
+VO_NAMES[3:] = json.loads(os.environ.get("VO_4_8", "null")) or VO_NAMES[3:]  # v2: excited retakes
+for i, v in enumerate(VO_NAMES, 1):
+    if not os.path.exists(f"vo{i}.mp3"): SH(f"curl -sfo vo{i}.mp3 {CDN}{v}.mp3")
 if not os.path.exists("lofi.wav"): SH(f"curl -sfLo lofi.wav '{LOFI}'")
 
 # 2. voice: tighten long pauses, trim the ends, light tempo (pitch unchanged)
@@ -75,7 +78,7 @@ SH(f"ffmpeg -y -v error -i lofi.wav -i voice.wav -i video.mp4 -filter_complex \"
    f"[sad][hap]amix=inputs=2:normalize=0,apad=whole_dur={D}[m];"
    f"[1]asplit=2[vk][vo];[m][vk]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=350[md];"
    f"[md][vo]amix=inputs=2:normalize=0,alimiter=limit=0.95,loudnorm=I=-14:TP=-1.5:LRA=11[out]\" "
-   f"-map 2:v -map '[out]' -c:v copy -c:a aac -b:a 192k -t {D} v007_v1_clean.mp4")
+   f"-map 2:v -map '[out]' -c:v copy -c:a aac -b:a 192k -t {D} {OUT}_clean.mp4")
 
 # 5. captions: sentence case, lower-middle safe zone, each line drawn separately so it is centred
 os.makedirs("t", exist_ok=True); n = [0]
@@ -97,5 +100,5 @@ F = [
     L("★★★★★", c[7], D, 0.535, 72, STARF, "0xFFC83D"),
     L("Give your bird's feet", c[7] + 0.4, D, Y[1]), L("a break.", c[7] + 0.4, D, Y[2]), L("Link in bio.", c[7] + 1.6, D, 0.695, 54),
 ]
-SH(f"ffmpeg -y -v error -i v007_v1_clean.mp4 -vf \"{','.join(F)}\" -c:v libx264 -preset veryfast -crf 18 -c:a copy v007_v1_captioned.mp4")
-print("cuts", [round(x, 2) for x in cut], "duration", DUR("v007_v1_captioned.mp4"))
+SH(f"ffmpeg -y -v error -i {OUT}_clean.mp4 -vf \"{','.join(F)}\" -c:v libx264 -preset veryfast -crf 18 -c:a copy {OUT}_captioned.mp4")
+print("cuts", [round(x, 2) for x in cut], "duration", DUR(f"{OUT}_captioned.mp4"))
