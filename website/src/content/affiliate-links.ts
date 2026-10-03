@@ -26,6 +26,8 @@ export const affiliateLinks: Record<string, string> = {
   P011: "https://link.amazon/B0eqdE3fN",
   // Colorday Large Bird Bath for Cage (Mango, video #005)
   P012: "https://link.amazon/B0e7y78eu",
+  // URPOWER Dog Car Seat Cover (Goldie, video #004)
+  P016: "https://link.amazon/B0ecOlebf",
 };
 
 export function isPlaceholderUrl(url: string | undefined): boolean {
