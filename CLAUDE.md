@@ -5,9 +5,9 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 ## Always read first
 - `characters/goldie/character-bible.md` — Goldie: **male (he/him)**, extra-fluffy near-white English cream Golden Retriever, forest-green collar + brass tag, happy smile, bright inviting eyes (never sad). Friendly, casual, playful inner voice; calls owners "Mom and Dad".
 - `higgsfield-prompts/higgsfield-ids.md` — reusable Higgsfield IDs (workspace, Goldie element, product elements).
-- `products/product-database.csv` — every product ever researched + status. Never delete rows; change status.
+- `products/product-database.csv` — every product ever researched + status. Never delete rows; change status. Product IDs (P0XX) and video IDs (V0XX) are unique across all characters and branches: take the next free number from this file on the default branch, never reuse one.
 - `NEW-PRODUCT-PLAYBOOK.md` — the step-by-step for a new product/video.
-- `AD-MASTER-SYSTEM.md` — **when the owner pastes an Amazon link, that link IS the command**: run the full research → concept → script → prompts → QC workflow in that file (with its house adaptations: Amazon is blocked here, so say so and ask for screenshots/ASIN; stop points still apply).
+- `AD-MASTER-SYSTEM.md` (loaded on demand by the `amazon-to-ad` skill; no need to read it for website or editing work) — **when the owner pastes an Amazon link, that link IS the command**: run the full research → concept → script → prompts → QC workflow in that file (with its house adaptations: Amazon is blocked here, so say so and ask for screenshots/ASIN; stop points still apply).
 
 ## Locked assets (reuse, don't recreate)
 - Goldie Higgsfield element: `743ced41-8284-4972-8b71-01bb96ca4509` (master image job `357ceade-b12a-4fe3-a060-39574c6b30d9`).
@@ -18,7 +18,7 @@ AI-generated pet videos (TikTok / Reels / Shorts) monetised with Amazon affiliat
 - `website/` is the Next.js link-in-bio site, branded **PetPicks4You** (capital P, P, Y; orange "4"; orange smile under the wordmark — a plain crescent, never Amazon's arrow). Content lives only in `website/src/content/` (pets, products, affiliate-links, short-links). When a video goes live, set that product's `published: true` and `videoUrl`, and have the owner paste its affiliate link in `affiliate-links.ts`. Never invent affiliate links or show prices.
 
 ## Rules
-- Never fabricate product data; label VERIFIED / SNIPPET / UNVERIFIED. amazon.com is blocked from this environment — use web search and ask the owner to confirm live numbers.
+- Never fabricate product data; label VERIFIED / SNIPPET / UNVERIFIED. amazon.com is blocked from this environment — use web search and ask the owner to confirm live numbers. If Claude in Chrome is connected (owner's own browser), it may be used READ-ONLY to read listing facts, price, stars and "deliver to" on amazon.com/.ae/.sa: never click Buy, Add to Cart, Subscribe, sign-in, Associates/SiteStripe or any account page; work in a new tab and stop if a login or payment page appears.
 - Product reference photos from the owner are the source of truth; never invent product features.
 - No efficacy/health promises (e.g. "stops chewing"); phrase benefits as Goldie's playful opinion. Always include #ad + "AI-generated" disclosure.
 - Show the owner keyframe stills before spending on video clips, unless they say "go".
